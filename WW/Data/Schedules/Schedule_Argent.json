@@ -1,0 +1,13 @@
+{
+	"Changes": [
+		{
+			"LogName": "Argent's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/Schedules/ArgentD",
+			"Entries": {
+				"spring": "0 BusStop 19 22 0",
+			},
+		},
+	]
+}
+//(0 = up, 1 = right, 2 = down, 3 = left)

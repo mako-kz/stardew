@@ -1,0 +1,169 @@
+{
+    "Changes": [
+
+// VANILLA CHARACTERS
+//alphabetical order: Abigail, Alex, Caroline, Clint, Demetrius, Dwarf, Elliott, Emily, Evelyn, George, Gus, Haley, Harvey, Jas, Jodi, Kent, Krobus, Leah, Leo, Lewis, Linus, Marnie, Maru, Pam, Penny, Pierre, Robin, Sam, Sandy, Sebastian, Shane, Vincent, Willy, Wizard.
+
+    {
+        //repeat vanilla calls - currently broken. unsure how to fix
+        //todo: null these and then re-add?
+        "Action": "EditData",
+        "Target": "Data/IncomingPhoneCalls",
+        "When": {
+            "RepeatCalls": true,
+        },
+        "Entries": {
+           "0": {
+            "MaxCalls": -1,
+           },
+           "3": {
+            "MaxCalls": -1,
+           },           
+           "5": {
+            "MaxCalls": -1,
+           },  
+           "6": {
+            "MaxCalls": -1,
+           }, 
+           "7": {
+            "MaxCalls": -1,
+           },                
+        }
+    },
+{
+        //new calls
+        "Action": "EditData",
+        "Target": "Data/IncomingPhoneCalls",
+        "When": {
+            "PrankCalls": true,
+        },
+        "Entries": {
+           /*
+           "{{ModID}}_PC.1": {
+            "TriggerCondition": null, //trigger condition for all players
+            "RingCondition": null, //trigger condition for specific player
+            "FromNpc": null, //specify which NPC is calling
+            "FromPortrait": null, //portrait override
+            "FromDisplayName": null, //name override
+            "Dialogue": "{{i18n: Calls.1}}",
+            "IgnoreBaseChance": false, //set to true to override 1% change to receive call
+            "SimpleDialogueSplitBy": null, //set to # to make split dialogue in a plain text box
+            "MaxCalls": -1, //number of times call can happen
+            "CustomFields": null,
+           },
+           */
+
+           //regular prank calls
+           //dynamic token does not apply to numerical field. todo: add when conditional that edits only MaxCalls field
+           "{{ModID}}_PC.HangUp": {
+            "TriggerCondition": null,
+            "RingCondition": null,
+            "FromNpc": null,
+            "FromPortrait": null,
+            "FromDisplayName": null,
+            "Dialogue": "{{i18n: Calls.HangUp}}",
+            "IgnoreBaseChance": false,
+            "SimpleDialogueSplitBy": null,
+            "MaxCalls": 1,
+            "CustomFields": null,
+           },     
+           "{{ModID}}_PC.Fridge1": {
+            "TriggerCondition": null,
+            "RingCondition": null,
+            "FromNpc": null,
+            "FromPortrait": "Portraits/AnsweringMachine",
+            "FromDisplayName": "{{i18n: UnknownCaller}}",
+            "Dialogue": "{{i18n: Calls.Fridge.1}}",
+            "IgnoreBaseChance":false,
+            "SimpleDialogueSplitBy": null,
+            "MaxCalls": 1,
+            "CustomFields": null,
+           }, 
+           "{{ModID}}_PC.Fridge2": {
+            "TriggerCondition": null,
+            "RingCondition": null,
+            "FromNpc": null,
+            "FromPortrait": "Portraits/AnsweringMachine",
+            "FromDisplayName": "{{i18n: UnknownCaller}}",
+            "Dialogue": "{{i18n: Calls.Fridge.2}}",
+            "IgnoreBaseChance": false,
+            "SimpleDialogueSplitBy": null,
+            "MaxCalls": 1,
+            "CustomFields": null,
+           }, 
+           "{{ModID}}_PC.Fridge3": {
+            "TriggerCondition": null,
+            "RingCondition": null,
+            "FromNpc": null,
+            "FromPortrait": "Portraits/AnsweringMachine",
+            "FromDisplayName": "{{i18n: UnknownCaller}}",
+            "Dialogue": "{{i18n: Calls.Fridge.3}}",
+            "IgnoreBaseChance": false,
+            "SimpleDialogueSplitBy": null,
+            "MaxCalls": 1,
+            "CustomFields": null,
+           }, 
+           "{{ModID}}_PC.NoFridge1": {
+            "TriggerCondition": null,
+            "RingCondition": null,
+            "FromNpc": null,
+            "FromPortrait": "Portraits/AnsweringMachine",
+            "FromDisplayName": "{{i18n: UnknownCaller}}",
+            "Dialogue": "{{i18n: Calls.NoFridge.1}}",
+            "IgnoreBaseChance": false,
+            "SimpleDialogueSplitBy": null,
+            "MaxCalls": 1,
+            "CustomFields": null,
+           },    
+           "{{ModID}}_PC.NoFridge2": {
+            "TriggerCondition": null,
+            "RingCondition": null,
+            "FromNpc": null,
+            "FromPortrait": "Portraits/AnsweringMachine",
+            "FromDisplayName": "{{i18n: UnknownCaller}}",
+            "Dialogue": "{{i18n: Calls.NoFridge.2}}",
+            "IgnoreBaseChance": false,
+            "SimpleDialogueSplitBy": null,
+            "MaxCalls": 1,
+            "CustomFields": null,
+           },     
+           "{{ModID}}_PC.Horse1": {
+            "TriggerCondition": null,
+            "RingCondition": null,
+            "FromNpc": null,
+            "FromPortrait": "Portraits/AnsweringMachine",
+            "FromDisplayName": "{{i18n: UnknownCaller}}",
+            "Dialogue": "{{i18n: Calls.Horse.1}}",
+            "IgnoreBaseChance": false,
+            "SimpleDialogueSplitBy": null,
+            "MaxCalls": 1,
+            "CustomFields": null,
+           },  
+           "{{ModID}}_PC.HorseMarnie": {
+            "TriggerCondition": null,
+            "RingCondition": null,
+            "FromNpc": "Marnie",
+            "FromPortrait": null,
+            "FromDisplayName": null,
+            "Dialogue": "{{i18n: Calls.Horse.Marnie}}",
+            "IgnoreBaseChance": false,
+            "SimpleDialogueSplitBy": null,
+            "MaxCalls": 1,
+            "CustomFields": null,
+           },    
+           "{{ModID}}_PC.HorseWarranty": {
+            "TriggerCondition": null,
+            "RingCondition": null,
+            "FromNpc": null,
+            "FromPortrait": "Portraits/AnsweringMachine",
+            "FromDisplayName": "{{i18n: UnknownCaller}}",
+            "Dialogue": "{{i18n: Calls.HorseWarranty}}",
+            "IgnoreBaseChance": false,
+            "SimpleDialogueSplitBy": null,
+            "MaxCalls": 1,
+            "CustomFields": null,
+           },      
+        }
+    },   
+    ]
+}

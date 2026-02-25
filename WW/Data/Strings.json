@@ -1,0 +1,16 @@
+{
+  "Changes": [
+    {
+      "LogName": "Map Strings",
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": {
+        //REPLACE'S STRINGS 
+
+        "ExampleString": "{{i18n:Strings.REPLACE.ExampleString}}",
+
+
+      }
+    }
+  ]
+ }

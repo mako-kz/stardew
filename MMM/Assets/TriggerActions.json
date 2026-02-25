@@ -1,0 +1,457 @@
+{
+	"Changes": [
+	{
+		//regular mail
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			// just get them to the new format first, do the conditional stuff later tbh.
+				"{{ModID}}_CatFacts": {
+					"Id": "{{ModID}}_CatFacts",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.1, DAYS_PLAYED 7",
+					"Action": "AddMail Current {{ModID}}_CatFacts tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_CatFacts1": {
+					"Id": "{{ModID}}_CatFacts1",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.05, PLAYER_HAS_MAIL Current  {{ModID}}_CatFacts Received",
+					"Action": "AddMail Current {{ModID}}_CatFacts1 tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_CatFacts2": {
+					"Id": "{{ModID}}_CatFacts2",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.05, PLAYER_HAS_MAIL Current  {{ModID}}_CatFacts1 Received",
+					"Action": "AddMail Current {{ModID}}_CatFacts2 tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_CatFacts3": {
+					"Id": "{{ModID}}_CatFacts3",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.05, PLAYER_HAS_MAIL Current  {{ModID}}_CatFacts2 Received",
+					"Action": "AddMail Current {{ModID}}_CatFacts3 tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_CatFacts4": {
+					"Id": "{{ModID}}_CatFacts4",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.05, PLAYER_HAS_MAIL Current  {{ModID}}_CatFacts3 Received",
+					"Action": "AddMail Current {{ModID}}_CatFacts4 tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_CatFacts5": {
+					"Id": "{{ModID}}_CatFacts5",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.05, PLAYER_HAS_MAIL Current  {{ModID}}_CatFacts4 Received",
+					"Action": "AddMail Current {{ModID}}_CatFacts5 tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_JunimoMail": {
+					"Id": "{{ModID}}_JunimoMail",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.1, PLAYER_HAS_SEEN_EVENT Current 112",
+					"Actions": [
+						"AddMail Current {{ModID}}_JunimoMail tomorrow",
+						"AddConversationTopic {{ModID}}_JunimoMailCT1 1",
+				],
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_JunimoMailNextDay": {
+					"Id": "{{ModID}}_JunimoMailNextDay",
+					"Trigger": "DayStarted",
+					"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_JunimoMail Received",
+					"Actions": [
+						"AddMail Current {{ModID}}_JunimoMailNextDay now",
+						"AddConversationTopic {{ModID}}_JunimoMailCT2 7",
+				],
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_PrismaticGag": {
+					"Id": "{{ModID}}_PrsimaticGag",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.01 @addDailyLuck",
+					"Action": "AddMail Current {{ModID}}_PrismaticGag tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_LawsuitSettle": {
+					"Id": "{{ModID}}_LawsuitSettle",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.01",
+					"Actions": [
+						"AddMail Current {{ModID}}_LawsuitSettle tomorrow",
+						"AddConversationTopic {{ModID}}_LawsuitMailCT 7",
+				],
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_FreeEnergy": {
+					"Id": "{{ModID}}_FreeEnergy",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.01",
+					"Action": "AddMail Current {{ModID}}_FreeEnergy tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_FreeEnergyAgain": {
+					"Id": "{{ModID}}_FreeEnergyAgain",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.05, PLAYER_HAS_MAIL Current {{ModID}}_FreeEnergy Received",
+					"Action": "AddMail Current {{ModID}}_FreeEnergyAgain tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_FreeEnergyFinale": {
+					"Id": "{{ModID}}_FreeEnergyFinale",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.1, PLAYER_HAS_MAIL Current {{ModID}}_FreeEnergyAgain Received, DAYS_PLAYED 84",
+					"Action": "AddMail Current {{ModID}}_FreeEnergyFinale tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_StarsAreWatching": {
+					"Id": "{{ModID}}_StarsAreWatching",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.01 @addDailyLuck",
+					"Action": "AddMail Current {{ModID}}_StarsAreWatching tomorrow",
+					"MarkActionApplied": true
+					},
+				//TBD: add a quest for this one? repeatable maybe?
+				"{{ModID}}_ChainLetter": {
+					"Id": "{{ModID}}_ChainLetter",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.01",
+					"Actions": [
+						"AddMail Current {{ModID}}_ChainLetter tomorrow",
+						"AddConversationTopic {{ModID}}_ChainLetterCT 7",
+					],
+					"MarkActionApplied": false
+					},
+				"{{ModID}}_LuckyNumbers": {
+					"Id": "{{ModID}}_LuckyNumbers",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.01",
+					"Action": "AddMail Current {{ModID}}_LuckyNumbers tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_LotteryWinner": {
+					"Id": "{{ModID}}_LotteryWinner",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.03 @addDailyLuck, PLAYER_HAS_MAIL Current {{ModID}}_LuckyNumbers Received",
+					"Actions": [
+						"AddMail Current {{ModID}}_LotteryWinner tomorrow",
+						"AddConversationTopic {{ModID}}_LotteryCT 7",
+					],
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_GameTheory": {
+					"Id": "{{ModID}}_GameTheory",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.01",
+					"Actions": [
+						"AddMail Current {{ModID}}_GameTheory tomorrow",
+						"AddConversationTopic {{ModID}}_GameTheoryCT 7",
+					],
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_JojaAd": {
+					"Id": "{{ModID}}_JojaAd",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.01",
+					"Actions": [
+						"AddMail Current {{ModID}}_JojaAd tomorrow",
+						"AddConversationTopic {{ModID}}_JojaAdCT 7",
+					],
+					"MarkActionApplied": false
+					},
+				"{{ModID}}_RaffleWinner": {
+					"Id": "{{ModID}}_RaffleWinner",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.01",
+					"Action": "AddMail Current {{ModID}}_RaffleWinner tomorrow",
+					"MarkActionApplied": false
+					},
+				"{{ModID}}_RiffRaffWinner": {
+					"Id": "{{ModID}}_RiffRaffWinner",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.01",
+					"Action": "AddMail Current {{ModID}}_RiffRaffWinner tomorrow",
+					"MarkActionApplied": false
+					},
+				"{{ModID}}_LetterOfEncouragement": {
+					"Id": "{{ModID}}_LetterOfEncouragement",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.005 @addDailyLuck",
+					"Action": "AddMail Current {{ModID}}_LetterOfEncouragement tomorrow",
+					"MarkActionApplied": false
+					},
+				"{{ModID}}_HotPeppers": {
+					"Id": "{{ModID}}_HotPeppers",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.1, SEASON summer",
+					"Actions": [
+						"AddMail Current {{ModID}}_HotPeppers tomorrow",
+						"AddConversationTopic {{ModID}}_PierreAdCT 7",
+					],
+					"MarkActionApplied": true
+					},
+				//resets Hot Peppers and Cold Peppers flags so they can be seen again next year
+				"{{ModID}}_PepperReset": {
+					"Id": "{{ModID}}_PepperReset",
+					"Trigger": "DayStarted",
+					"Condition": "SEASON_DAY fall 1",
+					"Actions": [
+						"MarkActionApplied Current {{ModID}}_HotPeppers false",
+						"MarkActionApplied Current {{ModID}}_ColdPeppers false",
+					],
+					"MarkActionApplied": false
+					},
+				"{{ModID}}_DatingWebsite": {
+					"Id": "{{ModID}}_DatingWebsite",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.05, PLAYER_FRIENDSHIP_POINTS Current AnyDateable 0 2000, DAY_OF_WEEK Friday",
+					"Action": "AddMail Current {{ModID}}_DatingWebsite now",
+					"MarkActionApplied": false
+					},
+					//TBD: add rando; set to non-repeating until then
+				"{{ModID}}_SplashPark": {
+					"Id": "{{ModID}}_SplashPark",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.05, SEASON spring summer",
+					"Action": "AddMail Current {{ModID}}_SplashPark tomorrow",
+					"MarkActionApplied": true
+					},
+
+		//2.0 mails
+				"{{ModID}}_SolarionTrial": {
+					"Id": "{{ModID}}_SolarionTrial",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.05",
+					"Actions": [
+						"Addmail Current {{ModID}}_SolarionTrial tomorrow",
+						"AddConversationTopic {{ModID}}_SolarionCT 7"
+					],
+					"MarkActionApplied": false
+					},
+				"{{ModID}}_ColdPeppers": {
+					"Id": "{{ModID}}_ColdPeppers",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.01, !SEASON summer",
+					"Actions": [
+						"AddMail Current {{ModID}}_ColdPeppers tomorrow",
+						"AddConversationTopic {{ModID}}_OOSPierreAdCT 7",
+					],
+					"MarkActionApplied": true
+					},
+					"{{ModID}}_ClownCollege": {
+					"Id": "{{ModID}}_ClownCollege",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.05",
+					"Actions": [
+						"AddMail Current {{ModID}}_ClownCollege tomorrow",
+						"AddConversationTopic {{ModID}}_ClownCollegeCT 7",
+					],
+					"MarkActionApplied": true
+					},
+		}
+	},
+	{
+		//parental mail
+		"Action":"EditData",
+		"Target": "Data/TriggerActions",
+		"When": {"GetAllParentalMail": true},
+		"Entries": {
+			/*new milestone values:
+			dad1: 5k (unchanged) (reward: phone)
+			mom1: 10k (reward: oak dresser)
+			mom2: 15k (unchanged) (reward: 6 green tea)
+			dad2: 20k (reward: 12 triple shots)
+			mom3: 32k (unchanged) (reward: 6 gold ginger ale)
+			dad3: 40k (reward: 6 kegs)
+			dad4: 100k (reward: auto-petter)
+			mom4: 120k (unchanged) (reward: 10 prize tickets)
+			*/
+			"Mail_Mom_5k": null,
+			"Mail_Mom_15k": null,
+			"Mail_Mom_32k": null,
+			"Mail_Mom_120k": null,
+			"Mail_Dad_5k": null,
+			"Mail_Dad_15k": null,
+			"Mail_Dad_32k": null,
+			"Mail_Dad_120k": null,
+			"{{ModID}}_Mom1": {
+				"Id": "Mail_10k",
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_MONEY_EARNED Current 10000",
+				"Action": "AddMail Current mom1",
+				"MarkActionApplied": true
+				},
+			"{{ModID}}_Mom2": {
+				"Id": "Mail_15k",
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_MONEY_EARNED Current 15000",
+				"Action": "AddMail Current mom2",
+				"MarkActionApplied": true
+				},
+			"{{ModID}}_Mom3": {
+				"Id": "Mail_32k",
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_MONEY_EARNED Current 32000",
+				"Action": "AddMail Current mom3",
+				"MarkActionApplied": true
+				},
+			"{{ModID}}_Mom4": {
+				"Id": "Mail_120k",
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_MONEY_EARNED Current 120000",
+				"Action": "AddMail Current mom4",
+				"MarkActionApplied": true
+				},
+			"{{ModID}}_Dad1": {
+				"Id": "Mail_5k",
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_MONEY_EARNED Current 5000",
+				"Action": "AddMail Current dad1",
+				"MarkActionApplied": true
+				},
+			"{{ModID}}_Dad2": {
+				"Id": "Mail_20k",
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_MONEY_EARNED Current 20000",
+				"Action": "AddMail Current dad2",
+				"MarkActionApplied": true
+				},
+			"{{ModID}}_Dad3": {
+				"Id": "Mail_40k",
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_MONEY_EARNED Current 40000",
+				"Action": "AddMail Current dad3",
+				"MarkActionApplied": true
+				},
+			"{{ModID}}_Dad4": {
+				"Id": "Mail_100k",
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_MONEY_EARNED Current 100000",
+				"Action": "AddMail Current dad4",
+				"MarkActionApplied": true
+				},
+		}
+	},
+	{
+		//ominous mail
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"When": {"OminousMail": true},
+		"Entries": {
+				"{{ModID}}_IsAnyoneHere": {
+					"Id": "{{ModID}}_IsAnyoneHere",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.01",
+					"Action": "AddMail Current {{ModID}}_IsAnyoneHere tomorrow",
+					"MarkActionApplied": false
+					},
+				"{{ModID}}_WeKnow": {
+					"Id": "{{ModID}}_WeKnow",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.01",
+					"Action": "AddMail Current {{ModID}}_WeKnow tomorrow",
+					"MarkActionApplied": false
+					},
+				"{{ModID}}_TrialConcluded": {
+					"Id": "{{ModID}}_TrialConcluded",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.01",
+					"Action": "AddMail Current {{ModID}}_TrialConcluded tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_GoToBed": {
+					"Id": "{{ModID}}_GoToBed",
+					"Trigger": "LocationChanged",
+					"Condition": "RANDOM 0.01, TIME 2400 2600, PLAYER_LOCATION_NAME Current Farm",
+					"Action": "AddMail Current {{ModID}}_GoToBed now",
+					"MarkActionApplied": false
+					},
+			//2.0 mails (ominous)
+				"{{ModID}}_TrialStarted": {
+					"Id": "{{ModID}}_TrialStarted",
+					"Trigger": "DayStarted",
+					"Action": "AddMail Current {{ModID}}_TrialStarted now",
+					"MarkActionApplied": true
+				},
+				/* 
+
+
+				"{{ModID}}_MAILNAME": {
+					"Id": "{{ModID}}_MAILNAME",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.1",
+					"Action": "AddMail Current {{ModID}}_MAILNAME tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_MAILNAME": {
+					"Id": "{{ModID}}_MAILNAME",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.1",
+					"Action": "AddMail Current {{ModID}}_MAILNAME tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_MAILNAME": {
+					"Id": "{{ModID}}_MAILNAME",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.1",
+					"Action": "AddMail Current {{ModID}}_MAILNAME tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_MAILNAME": {
+					"Id": "{{ModID}}_MAILNAME",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.1",
+					"Action": "AddMail Current {{ModID}}_MAILNAME tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_MAILNAME": {
+					"Id": "{{ModID}}_MAILNAME",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.1",
+					"Action": "AddMail Current {{ModID}}_MAILNAME tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_MAILNAME": {
+					"Id": "{{ModID}}_MAILNAME",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.1",
+					"Action": "AddMail Current {{ModID}}_MAILNAME tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_MAILNAME": {
+					"Id": "{{ModID}}_MAILNAME",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.1",
+					"Action": "AddMail Current {{ModID}}_MAILNAME tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_MAILNAME": {
+					"Id": "{{ModID}}_MAILNAME",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.1",
+					"Action": "AddMail Current {{ModID}}_MAILNAME tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_MAILNAME": {
+					"Id": "{{ModID}}_MAILNAME",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.1",
+					"Action": "AddMail Current {{ModID}}_MAILNAME tomorrow",
+					"MarkActionApplied": true
+					},
+				"{{ModID}}_MAILNAME": {
+					"Id": "{{ModID}}_MAILNAME",
+					"Trigger": "DayStarted",
+					"Condition": "RANDOM 0.1",
+					"Action": "AddMail Current {{ModID}}_MAILNAME tomorrow",
+					"MarkActionApplied": true
+					},
+
+				*/
+		
+			},
+		},
+	]
+}

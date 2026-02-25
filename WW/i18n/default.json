@@ -1,0 +1,855 @@
+{
+
+/*
+   _____ ______ _   _ ______ _____  _____ _____   _____ _____          _      ____   _____ _    _ ______ 
+  / ____|  ____| \ | |  ____|  __ \|_   _/ ____| |  __ \_   _|   /\   | |    / __ \ / ____| |  | |  ____|
+ | |  __| |__  |  \| | |__  | |__) | | || |      | |  | || |    /  \  | |   | |  | | |  __| |  | | |__   
+ | | |_ |  __| | . ` |  __| |  _  /  | || |      | |  | || |   / /\ \ | |   | |  | | | |_ | |  | |  __|  
+ | |__| | |____| |\  | |____| | \ \ _| || |____  | |__| || |_ / ____ \| |___| |__| | |__| | |__| | |____ 
+  \_____|______|_| \_|______|_|  \_\_____\_____| |_____/_____/_/    \_\______\____/ \_____|\____/|______|
+
+*/
+
+// NAME & INTRO 
+"Core.Argent.Name": "Argent",
+"Core.Argent.Introduction": "It's nice to meet you, @.$0",
+
+// COMMUNITY CENTER BUNDLES  
+"Core.Replace.JojaBegin": "",
+"Core.Replace.CCBegin": "",
+"Core.Replace.CCBus": "",
+"Core.Replace.CCMinecart": "",
+"Core.Replace.CCComplete": "",
+"Core.Replace.MovieTheater": "",
+
+// BIRTHDAYS
+"Core.Replace.Winter12":"",
+"Core.Replace.Winter19": "",
+
+// END OF SEASON
+"Core.Replace.SpringEnd":"",
+"Core.Replace.SummerEnd": "",
+"Core.Replace.FallEnd": "",
+"Core.Replace.WinterEnd": "",
+
+// SVE COMMUNITY DAY
+"Core.Replace.CommunityCenter4": "",
+"Core.Replace.CommunityCenter6": "",
+"Core.Replace.CommunityCenter8":"",
+"Core.Replace.CommunityCenter10": "",
+
+// FESTIVALS
+"Core.Replace.EggFestival": "",
+"Core.Replace.FlowerDance": "",
+"Core.Replace.Luau": "",
+"Core.Replace.MoonlightJelly": "",
+"Core.Replace.SDVFair":"",
+"Core.Replace.SpiritsEve": "",
+"Core.Replace.IceFestival": "",
+"Core.Replace.NightMarket": "",
+"Core.Replace.WinterStar": "",
+
+// ROMANTIC (POSITIVE) 
+"Core.Replace.GiveFlowersA":"",
+"Core.Replace.GiveFlowersB":"",
+"Core.Replace.GivePendant":"",
+"Core.Replace.StardropGiftA":"",
+"Core.Replace.StardropGiftB":"",
+
+// ROMANTIC (NEGATIVE)
+"Core.Replace.DanceRejection":"",
+"Core.Replace.Divorced":"",
+"Core.Replace.BreakUp":"",
+"Core.Replace.DumpedBoys":"",
+"Core.Replace.SecondChanceBoys":"",
+"Core.Replace.Reject2HA":"",
+"Core.Replace.Reject2HB":"",
+"Core.Replace.Reject4HA":"",
+"Core.Replace.Reject4HB":"",
+"Core.Replace.EngageA":"",
+"Core.Replace.EngageB":"",
+"Core.Replace.MarriedA":"",
+"Core.Replace.MarriedB":"",
+"Core.Replace.RefusalNoHeartsA":"",
+"Core.Replace.RefusalNoHeartsB":"",
+"Core.Replace.RefusalKnownA":"",
+"Core.Replace.RefusalKnownB":"",
+"Core.Replace.RefusalBotherA":"",
+"Core.Replace.RefusalBotherB":"",
+
+// RESORT
+"Core.Replace.ResortEntering":"",
+"Core.Replace.ResortLeaving":"",
+"Core.Replace.ResortShore":"",
+"Core.Replace.ResortUmbrella":"",
+"Core.Replace.ResortWander":"",
+"Core.Replace.ResortWander.2":"",
+"Core.Replace.ResortChair":"",
+"Core.Replace.ResortBar":"",
+"Core.Replace.ResortTowel":"",
+"Core.Replace.ResortTowel.2":"",
+"Core.Replace.Resort_Towel.3":"",
+"Core.Replace.Resort":"",
+
+// ADDITIONAL LOCATIONAL DIALOGUE
+
+// PLAYER DEATH
+"Core.Replace.PlayerKilled.Mines.01": "",
+"Core.Replace.PlayerKilled.Mines.02": "",
+"Core.Replace.PlayerKilled.Mines.03": "",
+ 
+"Core.Replace.PlayerKilled.Skull.01": "",
+"Core.Replace.PlayerKilled.Skull.02": "",
+"Core.Replace.PlayerKilled.Skull.03": "",
+"Core.Replace.PlayerKilled.Skull.04": "",
+"Core.Replace.PlayerKilled.Skull.05": "",
+"Core.Replace.PlayerKilled.Skull.06": "",
+"Core.Replace.PlayerKilled.Skull.07": "",
+"Core.Replace.PlayerKilled.Skull.08": "",
+
+/*
+  _    _ ______          _____ _______   _____ _____          _      ____   _____ _    _ ______ 
+ | |  | |  ____|   /\   |  __ \__   __| |  __ \_   _|   /\   | |    / __ \ / ____| |  | |  ____|
+ | |__| | |__     /  \  | |__) | | |    | |  | || |    /  \  | |   | |  | | |  __| |  | | |__   
+ |  __  |  __|   / /\ \ |  _  /  | |    | |  | || |   / /\ \ | |   | |  | | | |_ | |  | |  __|  
+ | |  | | |____ / ____ \| | \ \  | |    | |__| || |_ / ____ \| |___| |__| | |__| | |__| | |____ 
+ |_|  |_|______/_/    \_\_|  \_\ |_|    |_____/_____/_/    \_\______\____/ \_____|\____/|______|
+
+*/
+
+// 0 HEARTS - SPRING
+"Core.Argent.Spring.Monday.0h": "",
+"Core.Argent.Spring.Tuesday.0h": "",
+"Core.Argent.Spring.Wednesday.0h": "",
+"Core.Argent.Spring.Thursday.0h": "",
+"Core.Argent.Spring.Friday.0h": "",	
+"Core.Argent.Spring.Saturday.0h": "",
+"Core.Argent.Spring.Sunday.0h": "",
+
+// 0 HEARTS - SUMMER
+"Core.Replace.Summer.Monday.0h": "",
+"Core.Replace.Summer.Tuesday.0h": "",
+"Core.Replace.Summer.Wednesday.0h": "", 
+"Core.Replace.Summer.Thursday.0h": "",
+"Core.Replace.Summer.Friday.0h": "",
+"Core.Replace.Summer.Saturday.0h": "",
+"Core.Replace.Summer.Sunday.0h": "", 
+
+// 0 HEARTS - FALL
+"Core.Replace.Fall.Monday.0h":"",
+"Core.Replace.Fall.Tuesday.0h":"",
+"Core.Replace.Fall.Wednesday.0h":"",
+"Core.Replace.Fall.Thursday.0h":"",
+"Core.Replace.Fall.Friday.0h":"",
+"Core.Replace.Fall.Saturday.0h":"",
+"Core.Replace.Fall.Sunday.0h":"",
+
+// 0 HEARTS - WINTER
+"Core.Replace.Winter.Monday.0h": "",
+"Core.Replace.Winter.Tuesday.0h": "",
+"Core.Replace.Winter.Wednesday.0h":"",
+"Core.Replace.Winter.Thursday.0h": "",
+"Core.Replace.Winter.Friday.0h": "",
+"Core.Replace.Winter.Saturday.0h": "",
+"Core.Replace.Winter.Sunday.0h": "",
+
+// 2 HEARTS - SPRING
+"Core.Replace.Spring.Monday.2h": "",
+"Core.Replace.Spring.Tuesday.2h": "",
+"Core.Replace.Spring.Wednesday.2h": "",
+"Core.Replace.Spring.Thursday.2h": "",
+"Core.Replace.Spring.Friday.2h": "",
+"Core.Replace.Spring.Saturday.2h": "",
+"Core.Replace.Spring.Sunday.2h":"",
+
+// 2 HEARTS - SUMMER
+"Core.Replace.Summer.Monday.2h": "",
+"Core.Replace.Summer.Tuesday.2h": "",
+"Core.Replace.Summer.Wednesday.2h":"",
+"Core.Replace.Summer.Thursday.2h": "",
+"Core.Replace.Summer.Friday.2h": "",
+"Core.Replace.Summer.Saturday.2h": "",
+"Core.Replace.Summer.Sunday.2h": "",
+
+// 2 HEARTS - FALL
+"Core.Replace.Fall.Monday.2h": "",
+"Core.Replace.Fall.Tuesday.2h": "",
+"Core.Replace.Fall.Wednesday.2h": "",
+"Core.Replace.Fall.Thursday.2h": "",
+"Core.Replace.Fall.Friday.2h": "",
+"Core.Replace.Fall.Saturday.2h": "",
+"Core.Replace.Fall.Sunday.2h": "",
+
+// 2 HEARTS - WINTER
+"Core.Replace.Winter.Monday.2h": "",
+"Core.Replace.Winter.Tuesday.2h": "",
+"Core.Replace.Winter.Wednesday.2h": "",
+"Core.Replace.Winter.Thursday.2h":"",
+"Core.Replace.Winter.Friday.2h":"",
+"Core.Replace.Winter.Saturday.2h":"",
+"Core.Replace.Winter.Sunday.2h": "",
+
+// 4 HEARTS - SPRING
+"Core.Replace.Spring.Monday.4h":"",
+"Core.Replace.Spring.Tuesday.4h": "",
+"Core.Replace.Spring.Wednesday.4h":"",
+"Core.Replace.Spring.Thursday.4h":"",
+"Core.Replace.Spring.Friday.4h": "",
+"Core.Replace.Spring.Saturday.4h":"",
+"Core.Replace.Spring.Sunday.4h":"",
+
+// 4 HEARTS - SUMMER
+"Core.Replace.Summer.Monday.4h":"",
+"Core.Replace.Summer.Tuesday.4h":"",
+"Core.Replace.Summer.Wednesday.4h":"",
+"Core.Replace.Summer.Thursday.4h":"",
+"Core.Replace.Summer.Friday.4h":"",
+"Core.Replace.Summer.Saturday.4h":"",
+"Core.Replace.Summer.Sunday.4h":"",
+
+// 4 HEARTS - FALL
+"Core.Replace.Fall.Monday.4h":"",
+"Core.Replace.Fall.Tuesday.4h": "",
+"Core.Replace.Fall.Wednesday.4h":"",
+"Core.Replace.Fall.Thursday.4h": "",
+"Core.Replace.Fall.Friday.4h":"",
+"Core.Replace.Fall.Saturday.4h":"",
+"Core.Replace.Fall.Sunday.4h": "",
+
+// 4 HEARTS - WINTER
+"Core.Replace.Winter.Monday.4h": "",
+"Core.Replace.Winter.Tuesday.4h":"",
+"Core.Replace.Winter.Wednesday.4h":"",
+"Core.Replace.Winter.Thursday.4h": "",
+"Core.Replace.Winter.Friday.4h":"",
+"Core.Replace.Winter.Saturday.4h":"",
+"Core.Replace.Winter.Sunday.4h":"", 
+
+// 6 HEARTS - SPRING
+"Core.Replace.Spring.Monday.6h":"",
+"Core.Replace.Spring.Tuesday.6h":"",
+"Core.Replace.Spring.Wednesday.6h":"",
+"Core.Replace.Spring.Thursday.6h":"",
+"Core.Replace.Spring.Friday.6h": "",
+"Core.Replace.Spring.Saturday.6h":"",
+"Core.Replace.Spring.Sunday.6h": "",
+ 
+// 6 HEARTS - SUMMER
+"Core.Replace.Summer.Monday.6h":"",
+"Core.Replace.Summer.Tuesday.6h":"",
+"Core.Replace.Summer.Wednesday.6h":"",
+"Core.Replace.Summer.Thursday.6h":"",
+"Core.Replace.Summer.Friday.6h": "",
+"Core.Replace.Summer.Saturday.6h":"",
+"Core.Replace.Summer.Sunday.6h":"",
+
+// 6 HEARTS - FALL
+"Core.Replace.Fall.Monday.6h":"",
+"Core.Replace.Fall.Tuesday.6h":"",
+"Core.Replace.Fall.Wednesday.6h":"",
+"Core.Replace.Fall.Thursday.6h": "",
+"Core.Replace.Fall.Friday.6h":"",
+"Core.Replace.Fall.Saturday.6h":"",
+"Core.Replace.Fall.Sunday.6h":"",
+
+// 6 HEARTS - WINTER
+"Core.Replace.Winter.Monday.6h":"",
+"Core.Replace.Winter.Tuesday.6h":"",
+"Core.Replace.Winter.Wednesday.6h":"",
+"Core.Replace.Winter.Thursday.6h":"",
+"Core.Replace.Winter.Friday.6h": "",
+"Core.Replace.Winter.Saturday.6h":"",
+"Core.Replace.Winter.Sunday.6h":"",
+
+// 8 HEARTS - SPRING
+"Core.Replace.Spring.Monday.8h":"",
+"Core.Replace.Spring.Tuesday.8h":"",
+"Core.Replace.Spring.Wednesday.8h": "",
+"Core.Replace.Spring.Thursday.8h":"",
+"Core.Replace.Spring.Friday.8h": "",
+"Core.Replace.Spring.Saturday.8h": "",
+"Core.Replace.Spring.Sunday.8h": "",
+
+//8 HEARTS - SUMMER
+"Core.Replace.Summer.Monday.8h":"",
+"Core.Replace.Summer.Tuesday.8h":"",
+"Core.Replace.Summer.Wednesday.8h":"",
+"Core.Replace.Summer.Thursday.8h":"",
+"Core.Replace.Summer.Friday.8h":"",
+"Core.Replace.Summer.Saturday.8h":"",
+"Core.Replace.Summer.Sunday.8h":"",
+
+//8 HEARTS - FALL
+"Core.Replace.Fall.Monday.8h":"",
+"Core.Replace.Fall.Tuesday.8h":"",
+"Core.Replace.Fall.Wednesday.8h":"",
+"Core.Replace.Fall.Thursday.8h":"",
+"Core.Replace.Fall.Friday.8h":"",
+"Core.Replace.Fall.Saturday.8h":"",
+"Core.Replace.Fall.Sunday.8h":"",
+
+// 8 HEARTS - WINTER 
+"Core.Replace.Winter.Monday.8h": "",
+"Core.Replace.Winter.Tuesday.8h":"",
+"Core.Replace.Winter.Wednesday.8h":"",
+"Core.Replace.Winter.Thursday.8h":"",
+"Core.Replace.Winter.Friday.8h":"",
+"Core.Replace.Winter.Saturday.8h":"",
+"Core.Replace.Winter.Sunday.8h":"",   
+
+// 10 HEARTS PLATONIC - SPRING 
+"Core.Replace.Spring.Monday.10h.Platonic":"",
+"Core.Replace.Spring.Tuesday.10h.Platonic":"",
+"Core.Replace.Spring.Wednesday.10h.Platonic": "",
+"Core.Replace.Spring.Thursday.10h.Platonic": "",
+"Core.Replace.Spring.Friday.10h.Platonic": "",
+"Core.Replace.Spring.Saturday.10h.Platonic": "",
+"Core.Replace.Spring.Sunday.10h.Platonic":"",
+
+// 10 HEARTS PLATONIC - SUMMER
+"Core.Replace.Summer.Monday.10h.Platonic":"",
+"Core.Replace.Summer.Tuesday.10h.Platonic":"",
+"Core.Replace.Summer.Wednesday.10h.Platonic":"",
+"Core.Replace.Summer.Thursday.10h.Platonic":"",
+"Core.Replace.Summer.Friday.10h.Platonic":"",
+"Core.Replace.Summer.Saturday.10h.Platonic":"",
+"Core.Replace.Summer.Sunday.10h.Platonic":"",
+
+// 10 HEARTS PLATONIC - FALL
+"Core.Replace.Fall.Monday.10h.Platonic":"",
+"Core.Replace.Fall.Tuesday.10h.Platonic":"",
+"Core.Replace.Fall.Wednesday.10h.Platonic":"",
+"Core.Replace.Fall.Thursday.10h.Platonic":"",
+"Core.Replace.Fall.Friday.10h.Platonic": "",
+"Core.Replace.Fall.Saturday.10h.Platonic":"",
+"Core.Replace.Fall.Sunday.10h.Platonic":"",
+
+// 10 HEARTS PLATONIC - WINTER 
+"Core.Replace.Winter.Monday.10h.Platonic":"",
+"Core.Replace.Winter.Tuesday.10h.Platonic":"",
+"Core.Replace.Winter.Wednesday.10h.Platonic":"",
+"Core.Replace.Winter.Thursday.10h.Platonic":"",
+"Core.Replace.Winter.Friday.10h.Platonic": "",
+"Core.Replace.Winter.Saturday.10h.Platonic":"",
+"Core.Replace.Winter.Sunday.10h.Platonic":"",
+
+// 10 HEARTS ROMANTIC - SPRING 
+"Core.Replace.Spring.Monday.10h.Romantic":"",
+"Core.Replace.Spring.Tuesday.10h.Romantic":"",
+"Core.Replace.Spring.Wednesday.10h.Romantic": "",
+"Core.Replace.Spring.Thursday.10h.Romantic": "",
+"Core.Replace.Spring.Friday.10h.Romantic": "",
+"Core.Replace.Spring.Saturday.10h.Romantic": "",
+"Core.Replace.Spring.Sunday.10h.Romantic":"",
+
+// 10 HEARTS ROMANTIC - SUMMER
+"Core.Replace.Summer.Monday.10h.Romantic":"",
+"Core.Replace.Summer.Tuesday.10h.Romantic": "",
+"Core.Replace.Summer.Wednesday.10h.Romantic":"",
+"Core.Replace.Summer.Thursday.10h.Romantic":"",
+"Core.Replace.Summer.Friday.10h.Romantic":"",
+"Core.Replace.Summer.Saturday.10h.Romantic":"",
+"Core.Replace.Summer.Sunday.10h.Romantic":"",
+
+// 10 HEARTS ROMANTIC - FALL
+"Core.Replace.Fall.Monday.10h.Romantic":"",
+"Core.Replace.Fall.Tuesday.10h.Romantic":"",
+"Core.Replace.Fall.Wednesday.10h.Romantic": "",
+"Core.Replace.Fall.Thursday.10h.Romantic":"",
+"Core.Replace.Fall.Friday.10h.Romantic": "",
+"Core.Replace.Fall.Saturday.10h.Romantic":"",
+"Core.Replace.Fall.Sunday.10h.Romantic":"",
+
+// 10 HEARTS ROMANTIC - WINTER 
+"Core.Replace.Winter.Monday.10h.Romantic":"",
+"Core.Replace.Winter.Tuesday.10h.Romantic": "",
+"Core.Replace.Winter.Wednesday.10h.Romantic":"",
+"Core.Replace.Winter.Thursday.10h.Romantic":"",
+"Core.Replace.Winter.Friday.10h.Romantic":"",
+"Core.Replace.Winter.Saturday.10h.Romantic":"",
+"Core.Replace.Winter.Sunday.10h.Romantic":"",
+
+/*
+  __  __          _____  _____  _____          _____ ______ 
+ |  \/  |   /\   |  __ \|  __ \|_   _|   /\   / ____|  ____|
+ | \  / |  /  \  | |__) | |__) | | |    /  \ | |  __| |__   
+ | |\/| | / /\ \ |  _  /|  _  /  | |   / /\ \| | |_ |  __|  
+ | |  | |/ ____ \| | \ \| | \ \ _| |_ / ____ \ |__| | |____ 
+ |_|  |_/_/    \_\_|  \_\_|  \_\_____/_/    \_\_____|______|
+
+*/ 
+
+// PATIO   
+"Marriage.Replace.Patio.1": "",
+"Marriage.Replace.Patio.2": "",
+"Marriage.Replace.Patio.3": "",
+"Marriage.Replace.Patio.4": "",
+"Marriage.Replace.Patio.5": "",
+"Marriage.Replace.Patio.6": "",
+
+// SPOUSE ROOM 
+"Marriage.Replace.SpouseRoom.1":"",
+"Marriage.Replace.SpouseRoom.2":"",
+"Marriage.Replace.SpouseRoom.3":"",
+"Marriage.Replace.SpouseRoom.4":"",
+"Marriage.Replace.SpouseRoom.5":"",
+
+// FUN LEAVE & FUN RETURN
+"Marriage.Replace.funLeave.1":"",
+"Marriage.Replace.funLeave.2": "",
+"Marriage.Replace.funLeave.3": "",
+
+"Marriage.Replace.funReturn.1": "",
+"Marriage.Replace.funReturn.2": "",
+"Marriage.Replace.funReturn.3": "",
+
+// SPECIAL DATES - SPRING
+"Marriage.Replace.Spring": "",
+"Marriage.Replace.Spring1": "",
+"Marriage.Replace.Spring13": "",
+"Marriage.Replace.Spring23": "",
+"Marriage.Replace.Spring24": "", 
+"Marriage.Replace.Spring28": "",
+
+// SPECIAL DATES - SUMMER
+"Marriage.Replace.Summer": "",
+"Marriage.Replace.Summer1": "",
+"Marriage.Replace.Summer11":"",
+"Marriage.Replace.Summer28": "",
+
+// SPECIAL DATES - FALL
+"Marriage.Replace.Fall": "",
+"Marriage.Replace.Fall1": "",
+"Marriage.Replace.Fall15": "",
+"Marriage.Replace.Fall16": "",
+"Marriage.Replace.Fall25": "",
+"Marriage.Replace.Fall26": "",
+"Marriage.Replace.Fall27":"",
+
+// SPECIAL DATES - WINTER 
+"Marriage.Replace.Winter": "",
+"Marriage.Replace.Winter1": "",
+"Marriage.Replace.Winter8": "",
+"Marriage.Replace.Winter12": "",
+"Marriage.Replace.Winter14": "",
+"Marriage.Replace.Winter19": "",
+"Marriage.Replace.Winter24": "",
+"Marriage.Replace.Winter25": "",
+"Marriage.Replace.Winter28": "",
+
+// GENERIC DIALOGUE - RAINY
+"Marriage.Replace.Rainy.Day.0": "",
+"Marriage.Replace.Rainy.Day.1": "",
+"Marriage.Replace.Rainy.Day.2": "",
+"Marriage.Replace.Rainy.Day.3": "",
+"Marriage.Replace.Rainy.Day.4":"",
+"Marriage.Replace.Rainy.Day.5": "",
+"Marriage.Replace.Rainy.Day.6": "",
+"Marriage.Replace.Rainy.Night.0": "",
+"Marriage.Replace.Rainy.Night.1": "",
+"Marriage.Replace.Rainy.Night.2":"",
+"Marriage.Replace.Rainy.Night.3": "",
+"Marriage.Replace.Rainy.Night.4": "",
+"Marriage.Replace.Rainy.Night.5": "",
+"Marriage.Replace.Rainy.Night.6": "",
+"Marriage.Replace.Rainy.Night.Replace": "",
+
+// GENERIC DIALOGUE - INDOOR & OUTDOOR
+"Marriage.Replace.Indoor.Day.0":"",
+"Marriage.Replace.Indoor.Day.1": "",
+"Marriage.Replace.Indoor.Day.2": "",
+"Marriage.Replace.Indoor.Day.3": "",
+"Marriage.Replace.Indoor.Day.4": "",
+"Marriage.Replace.Indoor.Day.5":"",
+"Marriage.Replace.Indoor.Night.0":"",
+"Marriage.Replace.Indoor.Night.1":"",
+"Marriage.Replace.Indoor.Night.2":"",
+"Marriage.Replace.Indoor.Night.3": "",
+"Marriage.Replace.Indoor.Night.4": "",
+"Marriage.Replace.Indoor.Night.5": "",
+"Marriage.Replace.Indoor.Night.6":"",
+"Marriage.Replace.Outdoor.0": "",
+"Marriage.Replace.Outdoor.1":"",
+"Marriage.Replace.Outdoor.2":"",
+"Marriage.Replace.Outdoor.3": "",
+"Marriage.Replace.Outdoor.4":"",
+"Marriage.Replace.Outdoor": "",
+
+// GENERIC DIALOGUE - KIDS 
+"Marriage.Replace.OneKid.0": "",
+"Marriage.Replace.OneKid.1": "",
+"Marriage.Replace.OneKid.2": "",
+"Marriage.Replace.OneKid.3":"",
+"Marriage.Replace.TwoKids.0": "",
+"Marriage.Replace.TwoKids.1":"",
+"Marriage.Replace.TwoKids.2": "",
+"Marriage.Replace.TwoKids.3": "",
+"Marriage.Replace.TwoKids.4": "",
+
+// AFFECTION DIALOGUE
+"Marriage.Replace.Good.0": "",
+"Marriage.Replace.Good.1": "",
+"Marriage.Replace.Good.2":"",
+"Marriage.Replace.Good.3": "",
+"Marriage.Replace.Good.4": "",
+"Marriage.Replace.Good.5": "",
+"Marriage.Replace.Good.6": "",
+"Marriage.Replace.Good.7": "",
+"Marriage.Replace.Good.8": "",
+"Marriage.Replace.Neutral.0": "",
+"Marriage.Replace.Neutral.1":"",
+"Marriage.Replace.Neutral.2":"",
+"Marriage.Replace.Neutral.3":"",
+"Marriage.Replace.Neutral.4":"",
+"Marriage.Replace.Neutral.5": "",
+"Marriage.Replace.Neutral.6": "",
+"Marriage.Replace.Neutral.7":"",
+"Marriage.Replace.Bad.0":"",
+"Marriage.Replace.Bad.1": "",
+"Marriage.Replace.Bad.2":"",
+"Marriage.Replace.Bad.3":"",
+"Marriage.Replace.Bad.4":"",
+"Marriage.Replace.Bad.5":"",
+"Marriage.Replace.Bad.6": "",
+"Marriage.Replace.Bad.7": "",
+"Marriage.Replace.Bad.8":"",
+
+// ENGAGEMENT DIALOGUE 
+"Marriage.Replace.Engagement.Replace0":"",
+"Marriage.Replace.Engagement.Replace1":"",
+"Marriage.Replace.Engagement.Replace2":"",
+
+/*
+   _____ _____ ______ _______   _______        _____ _______ ______  _____ 
+  / ____|_   _|  ____|__   __| |__   __|/\    / ____|__   __|  ____|/ ____|
+ | |  __  | | | |__     | |       | |  /  \  | (___    | |  | |__  | (___  
+ | | |_ | | | |  __|    | |       | | / /\ \  \___ \   | |  |  __|  \___ \ 
+ | |__| |_| |_| |       | |       | |/ ____ \ ____) |  | |  | |____ ____) |
+  \_____|_____|_|       |_|       |_/_/    \_\_____/   |_|  |______|_____/ 
+
+*/
+
+// Generic Responses 
+"Gifts.Argent.GiftReaction.Love.Normal": "Are you sure I can have this, @? That's incredibly kind of you!$8",
+"Gifts.Argent.GiftReaction.Like.Normal": "Oh, a gift! This is quite lovely, @.$10",
+"Gifts.Argent.GiftReaction.Dislike.Normal": "Ah, I'm not really sure what to do with this? Thanks, I think...$3",
+"Gifts.Argent.GiftReaction.Hate.Normal": "Uhm... I'm sorry, @, but I don't really like this.$6",
+"Gifts.Argent.GiftReaction.Neutral": "I wasn't expecting any gifts today! Thank you.$1",
+
+// Responses for Low Hearts (the neutral was neutral enough already...)
+"Gifts.Argent.GiftReaction.Love.LowHearts": "This is a very nice gift... Are you sure you wanted to give this to me?$3#$b#Well... Thank you, then.$1",
+"Gifts.Argent.GiftReaction.Like.LowHearts": "This is a nice gift... Thank you very much.$1",
+"Gifts.Argent.GiftReaction.Dislike.LowHearts": "Uhm... Thanks.$2",
+"Gifts.Argent.GiftReaction.Hate.LowHearts": "Oh... I see...$6",
+
+// Specific Items
+"Gifts.Argent.GiftReaction.StardropTea.Normal": "Oh, this is...!$8#$b#Somehow, it reminds me of a warm spring breeze... What a wonderful gift, @!$10",
+"Gifts.Argent.GiftReaction.StardropTea.LowHearts": "You've brought me some tea? Allow me to try it...$0#$b#...!$8#$b#Uhm... Thank you for this, @.$1",
+
+// ARTISANAL GOODS
+"Gifts.Replace.GiftReaction.CategoryArtisanalGoods": "",
+
+// TRASH
+"Gifts.Replace.GiftReaction.CategoryTrash": "",
+
+// MINERALS & GEMS
+"Gifts.Replace.GiftReaction.CategoryMinerals": "",
+"Gifts.Replace.GiftReaction.CategoryGems": "",
+
+// LOVES - PLATONIC
+"Gifts.Replace.GiftReaction.Object.Platonic": "",
+
+// LOVES - ROMANTIC 
+"Gifts.Replace.GiftReaction.Object.Romantic": "",
+   
+// LIKES
+"Gifts.Replace.GiftReaction.Object": "",
+
+// BIRTHDAY - PLATONIC
+"Gifts.Replace.GiftReaction.Object.Birthday.Platonic": "",
+
+// BIRTHDAY - ROMANTIC
+"Gifts.Replace.GiftReaction.Object.Birthday.Romantic": "",
+
+
+/*
+  __  __  ______      _______ ______  _____ 
+ |  \/  |/ __ \ \    / /_   _|  ____|/ ____|
+ | \  / | |  | \ \  / /  | | | |__  | (___  
+ | |\/| | |  | |\ \/ /   | | |  __|  \___ \ 
+ | |  | | |__| | \  /   _| |_| |____ ____) |
+ |_|  |_|\____/   \/   |_____|______|_____/ 
+
+ */                                           
+"Movies.Argent.FirstInvite": "A movie ticket, just for me? I actually love movies... I'll see you there shortly!$10",
+"Movies.Argent.Invite": "Whoa, I was just thinking about going to the movies!$9#$b#Well, that settles it. I'll be right there!$10",
+"Movies.Argent.BraveLittleSapling.1": "Stories for children tend to have a moral at the end, correct? I wonder what this one is about...$1",
+"Movies.Argent.BraveLittleSapling.2": "*sniffle*",
+"Movies.Argent.BraveLittleSapling.3": "(Argent seems to be holding back tears...)",
+"Movies.Argent.BraveLittleSapling.4": "What is this feeling...?$6",
+"Movies.Argent.BraveLittleSapling.5": "...I'm really sorry if I was being distracting during the movie. I wasn't expecting to react like that at all...$2#$b#Don't get me wrong though, I still had a good time with you!$8#$b#But... Maybe we all need to take journeys, right?$6",
+"Movies.Argent.NaturalWonders.1": "I'm really excited to see this one!$10#$b#There's mostly snow where I come from... I hadn't really seen much of anything else before coming here.$1",
+"Movies.Argent.NaturalWonders.2": "Wow! Incredible...$8",
+"Movies.Argent.NaturalWonders.3": "Can you believe how amazing some of those shots were?! The cameramen must be very talented...$10#$b#",
+"Movies.Argent.NaturalWonders.4": "Seeing that really made me want to fly off somewhere new...$2#$b#Maybe one day, right?$6",
+"Movies.Argent.NaturalWonders.5": "",
+"Movies.Argent.PrairieKing.1": "I tried playing the game in the Saloon a few times, but it's really hard...$2#$b#Maybe watching the movie is a better idea for me.$10",
+"Movies.Argent.PrairieKing.2": "Oh no...$8",
+"Movies.Argent.PrairieKing.3": "That was a lot more thrilling than I expected. And to think it's based on a true story?$1#$b#Maybe I should seek out the lore on that when I get home...$3",
+"Movies.Argent.Wumbus.1": "To be honest, I'm not sure if this is the kind of movie I'd see by myself?$7#$b#I'm just happy to be here with you, though! I couldn't possibly imagine doing stuff like this back home.$10",
+"Movies.Argent.Wumbus.2": "(Argent gives you a small nudge during a funny joke. He seems to be enjoying himself.)", 
+"Movies.Argent.Wumbus.3": "That was actually pretty funny, wasn't it?$10#$b#I wonder if there really is a world like that out there.$3#$b#Well, I certainly hope pizza is a universal constant at the very least.$7",
+"Movies.Argent.Mysterium.1": "Oh, it's this one!$8#$b#",
+"Movies.Argent.Mysterium.2": " really likes this movie, I've heard ",
+"Movies.Argent.Mysterium.3": " talk about it before. I should tell ",
+"Movies.Argent.Mysterium.4": " that I saw it when we're done here!$10",
+"Movies.Argent.Mysterium.5": "(Argent is very intensely focusing on the movie.)",
+"Movies.Argent.Mysterium.6": "I wonder if any of that stuff was real... Maybe I should ask ",
+"Movies.Argent.Mysterium.7": " about that.$10#$b#Oh, but maybe I DON'T want to know though...$8",
+"Movies.Argent.ItHowlsInTheRain.1": "Is it a traditional thing to watch scary movies during the fall? Because of Spirit's Eve?$1#$b#Scary things can happen at any time, though... But I guess it'd be weird to watch them during the winter, wouldn't it?$7#$b#...$3#$b#I've heard the REAL horror stories about all the really bad movies coming out at the start of every year. Let's not watch any of those, okay?$1",
+"Movies.Argent.ItHowlsInTheRain.2": "Pfft... Yeah, sure it was.$3",
+"Movies.Argent.ItHowlsInTheRain.3": "If it was me in that movie, I would have lived. I'm built different.$0#$b#Haha, Maybe I could've been the monster in the woods...$1#$b#Just kidding.$10",
+"Movies.Argent.MiracleAtColdstarRanch.1": "Oh, a movie about the Winter Star? It seems like this holiday has a lot of folklore around it. I'm interested in learning more...",
+"Movies.Argent.MiracleAtColdstarRanch.2": "Hmm... The winter is tough for everyone, isn't it...$3",
+"Movies.Argent.MiracleAtColdstarRanch.3": "I guess this time of year is for giving gifts and granting wishes, huh... Giving gifts is a lot like granting a wish, if you ask me.$1#$b#Have you ever wished for anything, @? I know I have... $0#$b#I hope your wishes come true, if you have any.",
+"Movies.Argent.ZuzuCityExpress.1": "This one's a pretty old movie, isn't it?$7#$b#It's amazing that some things can stand the test of time like that. It's a good reminder that people felt the same way we did, even all those years ago...$0",
+"Movies.Argent.ZuzuCityExpress.2": "(Argent's expression frequently changes as he watches the movie. From a deep contemplation to a distant melancholy, then back again...)",
+"Movies.Argent.ZuzuCityExpress.3": "...I want to believe that she had a happy ending.$6#$b#",
+"Movies.Argent.ZuzuCityExpress.4": "I can see why people still watch this movie in spite of its age... It's quite moving, isn't it?$0",
+"Movies.Argent.ZuzuCityExpress.5": "When the heart and the mind are at odds with one another... I think most people can relate to that in some way.$6",
+
+/*
+  ______ ______  _____ _______ _______      __     _       _____ 
+ |  ____|  ____|/ ____|__   __|_   _\ \    / /\   | |     / ____|
+ | |__  | |__  | (___    | |    | |  \ \  / /  \  | |    | (___  
+ |  __| |  __|  \___ \   | |    | |   \ \/ / /\ \ | |     \___ \ 
+ | |    | |____ ____) |  | |   _| |_   \  / ____ \| |____ ____) |
+ |_|    |______|_____/   |_|  |_____|   \/_/    \_\______|_____/
+
+ */
+
+ // EGG FESTIVAL 
+"Festivals.Replace.EggFestival.1": "",
+"Festivals.Replace.EggFestival.2":"",
+"Festivals.Replace.EggFestival.Married": "",
+
+// FLOWER DANCE 
+"Festivals.Replace.FlowerDance.1": "",
+"Festivals.Replace.FlowerDance.2": "",
+"Festivals.Replace.FlowerDance.Married": "",
+"Festivals.Replace.FlowerDance.Accept": "",
+
+// LUAU 
+"Festivals.Replace.Luau.1": "",
+"Festivals.Replace.Luau.2": "",
+"Festivals.Replace.Luau.Married": "",  
+
+// MOONLIGHT JELLIES
+"Festivals.Replace.MoonlightJellies.1": "",
+"Festivals.Replace.MoonlightJellies.2": "",
+"Festivals.Replace.MoonlightJellies.Married": "",
+
+// SDV FAIR
+"Festivals.Replace.SDVFair.1":"",
+"Festivals.Replace.SDVFair.2":"",
+"Festivals.Replace.SDVFair.Married":"",
+
+// SPIRIT'S EVE
+"Festivals.Replace.SpiritsEve.1": "",
+"Festivals.Replace.SpiritsEve.2": "",
+"Festivals.Replace.SpiritsEve.Married": "",
+
+// ICE FESTIVAL 
+"Festivals.Replace.IceFestival.1": "",
+"Festivals.Replace.IceFestival.2": "",
+"Festivals.Replace.IceFestival.Married": "",
+
+// WINTER STAR 
+"Festivals.Replace.WinterStar.1": "",
+"Festivals.Replace.WinterStar.2": "",
+"Festivals.Replace.WinterStar.Married": "",
+
+// RSV GATHERING 
+"Festivals.Replace.RSVG": "",
+
+// RSV EMBER OF RESOLUTIONS 
+"Festivals.Replace.EmberOfResolutions": "",
+
+
+ /*
+   _____ _______ _____  _____ _   _  _____  _____ 
+  / ____|__   __|  __ \|_   _| \ | |/ ____|/ ____|
+ | (___    | |  | |__) | | | |  \| | |  __| (___  
+  \___ \   | |  |  _  /  | | | . ` | | |_ |\___ \ 
+  ____) |  | |  | | \ \ _| |_| |\  | |__| |____) |
+ |_____/   |_|  |_|  \_\_____|_| \_|\_____|_____/ 
+                                                                                                   
+*/
+
+"Strings.Replace.Example": "",
+
+/*
+  __  __          _____ _      
+ |  \/  |   /\   |_   _| |     
+ | \  / |  /  \    | | | |     
+ | |\/| | / /\ \   | | | |     
+ | |  | |/ ____ \ _| |_| |____ 
+ |_|  |_/_/    \_\_____|______|
+                               
+*/
+
+"Mail.WW.ESC": "Thank you very much for checking out my mod and Argent. For your consideration, here's how to access his currently-available events:^0 Hearts: Go to his house at any time.^0.5 Hearts: Go to his house a few days after introducing yourself to him. This should trigger a quest.^1 Heart: Go to his house at any time after completing the quest.",
+"Mail.WW.ESCTitle": "East Scarp Consideration Letter",
+//CASUAL MAIL
+"Mail.WW.Casual.1": "MAIL 1",
+"Mail.WW.Casual.2": "MAIL 2",
+"Mail.WW.Casual.3": "MAIL 3",
+"Mail.WW.Casual.4": "MAIL 4",
+"Mail.WW.Casual.5": "MAIL 5",
+"Mail.WW.CasualDesc.1": "1",
+"Mail.WW.CasualDesc.2": "2",
+"Mail.WW.CasualDesc.3": "3",
+"Mail.WW.CasualDesc.4": "4",
+"Mail.WW.CasualDesc.5": "5",
+
+
+/*
+   ____  _    _ ______  _____ _______ _____ 
+  / __ \| |  | |  ____|/ ____|__   __/ ____|
+ | |  | | |  | | |__  | (___    | | | (___  
+ | |  | | |  | |  __|  \___ \   | |  \___ \ 
+ | |__| | |__| | |____ ____) |  | |  ____) |
+  \___\_\\____/|______|_____/   |_| |_____/ 
+
+*/
+
+"Quests.Argent.Name.1": "A Simple Request",
+"Quests.Argent.Description.1": "You've recieved a letter from Argent requesting your presence... If you're remembering correctly, they live in the mountains to the north of East Scarp.",
+"Quests.Argent.Hint.1": "Meet Argent at their house.",
+"Quests.Argent.Name.2": "A Less Than Simple Request",
+"Quests.Argent.Description.2": "Argent's having trouble with their eyesight. They've asked you to find someone to help, but they're wary of getting mundane townspeople involved...",
+"Quests.Argent.Hint.2": "Find someone willing to help. Discretely.",
+"Quests.Argent.Name.3": "One Small Favor...",
+"Quests.Argent.Description.3": " created some special glasses that should help with Argent's problem, but not for free...",
+"Quests.Argent.Hint.3": "Deliver the Shaded Spectacles to Argent's house.",
+
+/*
+________      ________ _   _ _______ _____ 
+|  ____\ \    / /  ____| \ | |__   __/ ____|
+| |__   \ \  / /| |__  |  \| |  | | | (___  
+|  __|   \ \/ / |  __| | . ` |  | |  \___ \ 
+| |____   \  /  | |____| |\  |  | |  ____) |
+|______|   \/   |______|_| \_|  |_| |_____/ 
+
+*/
+
+
+
+/*
+   _____ ____  _   _     _______ ____  _____ _____ _____  _____ 
+  / ____/ __ \| \ | |   |__   __/ __ \|  __ \_   _/ ____|/ ____|
+ | |   | |  | |  \| |      | | | |  | | |__) || || |    | (___  
+ | |   | |  | | . ` |      | | | |  | |  ___/ | || |     \___ \ 
+ | |___| |__| | |\  |_     | | | |__| | |    _| || |____ ____) |
+  \_____\____/|_| \_(_)    |_|  \____/|_|   |_____\_____|_____/ 
+
+*/
+
+"CT.Argent.CasualTalk.1": "1",
+"CT.Argent.CasualTalk.2": "2",
+"CT.Argent.CasualTalk.3": "3",
+"CT.Argent.CasualTalk.4": "4",
+"CT.Argent.CasualTalk.5": "5",
+
+
+// Replace' REACTIONS
+"CT.Replace.SterlingDrugs": "",
+"CT.Replace.SterlingRelapse": "",
+"CT.Replace.SterlingApology": "",
+"CT.Replace.JunaBeachBallet": "",
+"CT.Replace.LucikielArrives": "",
+"CT.Replace.ReputationIncreased": "",
+"CT.Replace.JasperGone2": "",
+"CT.Replace.JasperHomeA": "",
+"CT.Replace.PTJ03": "",
+"CT.Replace.MeetTheCats": "",
+"CT.Replace.ButteredJorts": "",
+"CT.Replace.JortsZoomies": "",
+"CT.Replace.wedding": "",
+"CT.Replace.luauBest": "",
+"CT.Replace.Baby": "",
+"CT.Replace.jojaMartStruckByLightning": "",
+"CT.Replace.willyBoatRepaired": "",
+"CT.Replace.islandResortUnlocked":"",
+"CT.Replace.leoValleyArrival": "",
+"CT.Replace.railroadEarthquake": "",
+"CT.Replace.AnewCoupleInTown": "",
+"CT.Replace.AnewBookClub": "",
+"CT.Replace.EliIntro": "",
+"CT.Replace.MeetDND": "",
+"CT.Replace.AideenGarden": "",
+"CT.Replace.LitD_CT_ShadowPlay": "",
+"CT.Replace.LitD_CT_SensFlowers": "",
+"CT.Replace.BearFamTimeForBees":"",
+"CT.Replace.SigLowBattery":"",
+"CT.Replace.SigAndCigarettes":"",
+"CT.Replace.SigHatesCrowds":"",
+"CT.Replace.SigVersusCrabs":"",
+"CT.Replace.SondraAgingGracefully":"",
+"CT.Replace.SondraRememberWulfram":"",
+"CT.Replace.GunnarOpenForBusiness":"",
+"CT.Replace.GunnarBuildsaBomb":"",
+"CT.Replace.GunnarBreaksaSword":"",
+"CT.Replace.GunnarGuildTryout":"",
+"CT.Replace.GunnarGetsaLecture":"",
+"CT.Replace.GudrunQinstagram":"",
+"CT.Replace.GudrunEcoFriendly":"",
+"CT.Replace.BearFamFullHouse":"",
+"CT.Replace.BearFamFireDrill":"",
+"CT.Replace.BearFamAttacked":"",
+"CT.Replace.WelcomeSergeantBarnes":"",
+"CT.Replace.NoraIntro":"",
+"CT.Replace.NoraClass":"",
+"CT.Replace.NoraFear:":"",
+"CT.Replace.NoraSad":"",
+"CT.Replace.NoraBusy":"",
+"CT.Replace.JulietGremlin":"",
+"CT.Replace.LavrilUnlocked":"",
+"CT.Replace.DwarfStory":"",
+"CT.Replace.ShadowfolkStory":"",
+"CT.Replace.MeetingMeredith":"",
+"CT.Replace.BookLaunchParty":"",
+"CT.Replace.RodneyPoetryReading":"",
+"CT.Replace.EliJunimo2":"",
+"CT.Replace.DylanIntro":"",
+"CT.Replace.DylanBeach":"",
+"CT.Replace.DylanTown": "",
+"CT.Replace.DylanSaloon":"",
+"CT.Replace.JohnsArrival":"",
+"CT.Replace.keahi_prank": "",
+"CT.Replace.AfterProposal":"",
+
+/*
+  _______     ___   _          __  __ _____ _____   _______ ____  _  ________ _   _  _____ 
+ |  __ \ \   / / \ | |   /\   |  \/  |_   _/ ____| |__   __/ __ \| |/ /  ____| \ | |/ ____|
+ | |  | \ \_/ /|  \| |  /  \  | \  / | | || |         | | | |  | | ' /| |__  |  \| | (___  
+ | |  | |\   / | . ` | / /\ \ | |\/| | | || |         | | | |  | |  < |  __| | . ` |\___ \ 
+ | |__| | | |  | |\  |/ ____ \| |  | |_| || |____     | | | |__| | . \| |____| |\  |____) |
+ |_____/  |_|  |_| \_/_/    \_\_|  |_|_____\_____|    |_|  \____/|_|\_\______|_| \_|_____/ 
+                                                                                           
+ */
+
+"WizardNameMale": "Rasmodius",
+"WizardNameSVE": "Magnus",
+"WizardNameFemale": "Rasmodia",
+"WizardFormalMale": "Sir Rasmodius",
+"WizardFormalFemale": "Miss Rasmodia",
+"WizardPronoun1M": "He",
+"WizardPronoun2M": "Him",
+"WizardPronoun3M": "His",
+"WizardPronoun4M": "Himself",
+"WizardPronoun1F": "She",
+"WizardPronoun2F": "Her",
+"WizardPronoun3F": "Hers",
+"WizardPronoun4F": "Herself",
+}

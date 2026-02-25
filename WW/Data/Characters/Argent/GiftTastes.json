@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "LogName": "Argent's Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "ArgentD": "{{i18n:Gifts.Argent.GiftReaction.Love.{{HeartStatus}}}}/279 74 253 417 223 226 232 564 201/{{i18n:Gifts.Argent.GiftReaction.Like.{{HeartStatus}}}}/773 116 395 394 225 727 211 202 595 338 454 book_item 614 62 578 848 248 148 151 162 260 769/{{i18n:Gifts.Argent.GiftReaction.Dislike.{{HeartStatus}}}}/561 283 772 457 456/{{i18n:Gifts.Argent.GiftReaction.Hate.{{HeartStatus}}}}/84 109/{{i18n:Gifts.Argent.GiftReaction.Neutral}}/418 80 82 815 334 335 336 337/"
+            }
+        },
+
+    ]
+}

@@ -1,0 +1,130 @@
+{
+        "Changes": [
+                /*
+  _    _ ______          _____ _______   _____ _____          _      ____   _____ _    _ ______ 
+ | |  | |  ____|   /\   |  __ \__   __| |  __ \_   _|   /\   | |    / __ \ / ____| |  | |  ____|
+ | |__| | |__     /  \  | |__) | | |    | |  | || |    /  \  | |   | |  | | |  __| |  | | |__   
+ |  __  |  __|   / /\ \ |  _  /  | |    | |  | || |   / /\ \ | |   | |  | | | |_ | |  | |  __|  
+ | |  | | |____ / ____ \| | \ \  | |    | |__| || |_ / ____ \| |___| |__| | |__| | |__| | |____ 
+ |_|  |_|______/_/    \_\_|  \_\ |_|    |_____/_____/_/    \_\______\____/ \_____|\____/|______|
+
+*/
+                {
+                        "LogName": "Argent Dialogue - 0-4",
+                        "Action": "EditData",
+                        "Target": "Characters/Dialogue/ArgentD",
+                        "Entries": {
+                                "{{WeekDay}}": "{{i18n:Core.Argent.{{Season}}.EarlyHeart.{{Random:{{Range: 1, 16}}}}}}"
+                        }
+                },
+                {
+                        "LogName": "Dialogue - 5-10",
+                        "Action": "EditData",
+                        "Target": "Characters/Dialogue/REPLACE",
+                        "Entries": {
+                                "{{WeekDay}}": "{{i18n:Core.REPLACE.{{Season}}.LateHeart.{{Random:{{Range: 1, 18}}}}}}"
+                        },
+                        "When": {
+                                "Hearts:REPLACE": "{{Range: 5, 10}}"
+                        }
+                },
+                /*
+   _____ ______ _   _ ______ _____  _____ _____   _____ _____          _      ____   _____ _    _ ______ 
+  / ____|  ____| \ | |  ____|  __ \|_   _/ ____| |  __ \_   _|   /\   | |    / __ \ / ____| |  | |  ____|
+ | |  __| |__  |  \| | |__  | |__) | | || |      | |  | || |    /  \  | |   | |  | | |  __| |  | | |__   
+ | | |_ |  __| | . ` |  __| |  _  /  | || |      | |  | || |   / /\ \ | |   | |  | | | |_ | |  | |  __|  
+ | |__| | |____| |\  | |____| | \ \ _| || |____  | |__| || |_ / ____ \| |___| |__| | |__| | |__| | |____ 
+  \_____|______|_| \_|______|_|  \_\_____\_____| |_____/_____/_/    \_\______\____/ \_____|\____/|______|
+
+*/
+                {
+                        "LogName": "Argent's Heart Dialogue 1-8",
+                        "Action": "EditData",
+                        "Target": "Characters/Dialogue/ArgentD",
+                        "Entries": {
+                                // NAME & INTRO
+                                "Name:": "{{i18n:Core.Argent.Name}}",
+                                "Introduction": "{{i18n:Core.Argent.Introduction}}",
+                                // COMMUNITY CENTER BUNDLES
+                                "joja_Begin": "{{i18n:Core.REPLACE.JojaBegin}}",
+                                "cc_Begin": "{{i18n:Core.REPLACE.CCBegin}}",
+                                "cc_Bus": "{{i18n:Core.REPLACE.CCBus}}",
+                                "cc_Minecart": "{{i18n:Core.REPLACE.CCMinecart}}",
+                                "cc_Complete": "{{i18n:Core.REPLACE.CCComplete}}",
+                                "movieTheater": "{{i18n:Core.REPLACE.MovieTheater}}",
+                                // BIRTHDAYS
+                                "winter_12": "{{i18n:Core.REPLACE.Winter12}}",
+                                "winter_19": "{{i18n:Core.REPLACE.Winter19}}",
+                                // END OF SEASON
+                                "spring_28": "{{i18n:Core.REPLACE.SpringEnd}}",
+                                "summer_28": "{{i18n:Core.REPLACE.SummerEnd}}",
+                                "fall_28": "{{i18n:Core.REPLACE.FallEnd}}",
+                                "winter_28": "{{i18n:Core.REPLACE.WinterEnd}}",
+                                // SVE COMMUNITY DAY
+                                "CommunityCenter4": "{{i18n:Core.REPLACE.CommunityCenter4}}",
+                                "CommunityCenter6": "{{i18n:Core.REPLACE.CommunityCenter6}}",
+                                "CommunityCenter8": "{{i18n:Core.REPLACE.CommunityCenter8}}",
+                                "CommunityCenter10": "{{i18n:Core.REPLACE.CommunityCenter10}}",
+                                // FESTIVALS
+                                "spring_12": "{{i18n:Core.REPLACE.EggFestival}}",
+                                "spring_23": "{{i18n:Core.REPLACE.FlowerDance}}",
+                                "summer_10": "{{i18n:Core.REPLACE.Luau}}",
+                                "summer_27": "{{i18n:Core.REPLACE.MoonlightJelly}}",
+                                "fall_15": "{{i18n:Core.REPLACE.SDVFair}}",
+                                "fall_26": "{{i18n:Core.REPLACE.SpiritsEve}}",
+                                "winter_7": "{{i18n:Core.REPLACE.IceFestival}}",
+                                "winter_16": "{{i18n:Core.REPLACE.NightMarket}}",
+                                "winter_24": "{{i18n:Core.REPLACE.WinterStar}}",
+                                // ROMANTIC (POSITIVE)
+                                "give_flowersA": "{{i18n:Core.REPLACE.GiveFlowersA}}",
+                                "give_flowersB": "{{i18n:Core.REPLACE.GiveFlowersB}}",
+                                "give_pendant": "{{i18n:Core.REPLACE.GivePendant}}",
+                                "stardrop_giftA": "{{i18n:Core.REPLACE.StardropGiftA}}",
+                                "stardrop_giftB": "{{i18n:Core.REPLACE.StardropGiftB}}",
+                                // ROMANTIC (NEGATIVE)
+                                "danceRejection": "{{i18n:Core.REPLACE.DanceRejection}}",
+                                "divorced": "{{i18n:Core.REPLACE.Divorced}}",
+                                "breakUp": "{{i18n:Core.REPLACE.BreakUp}}",
+                                "dumped_Girls": "{{i18n:Core.REPLACE.DumpedGirls}}",
+                                "secondChance_Girls": "{{i18n:Core.REPLACE.SecondChanceGirls}}",
+                                "reject_two_heartA": "{{i18n:Core.REPLACE.Reject2HA}}",
+                                "reject_two_heartB": "{{i18n:Core.REPLACE.Reject2HB}}",
+                                "reject_four_heartA": "{{i18n:Core.REPLACE.Reject4HA}}",
+                                "reject_four_heartB": "{{i18n:Core.REPLACE.Reject4HB}}",
+                                "engageA": "{{i18n:Core.REPLACE.EngageA}}",
+                                "engageB": "{{i18n:Core.REPLACE.EngageB}}",
+                                "marriedA": "{{i18n:Core.REPLACE.MarriedA}}",
+                                "marriedB": "{{i18n:Core.REPLACE.MarriedB}}",
+                                "refusal_no_heartsA": "{{i18n:Core.REPLACE.RefusalNoHeartsA}}",
+                                "refusal_no_heartsB": "{{i18n:Core.REPLACE.RefusalNoHeartsB}}",
+                                "refusal_knownA": "{{i18n:Core.REPLACE.RefusalKnownA}}",
+                                "refusal_knownB": "{{i18n:Core.REPLACE.RefusalKnownB}}",
+                                "refusal_botherA": "{{i18n:Core.REPLACE.RefusalBotherA}}",
+                                "refusal_botherB": "{{i18n:Core.REPLACE.RefusalBotherB}}",
+                                // RESORT
+                                "Resort_Entering": "{{i18n:Core.REPLACE.ResortEntering}}",
+                                "Resort_Leaving": "{{i18n:Core.REPLACE.ResortLeaving}}",
+                                "Resort_Shore": "{{i18n:Core.REPLACE.ResortShore}}",
+                                "Resort_Umbrella": "{{i18n:Core.REPLACE.ResortUmbrella}}",
+                                "Resort_Wander": "{{i18n:Core.REPLACE.ResortWander}}",
+                                "Resort_Wander_2": "{{i18n:Core.REPLACE.ResortWander.2}}",
+                                "Resort_Chair": "{{i18n:Core.REPLACE.ResortChair}}",
+                                "Resort_Bar": "{{i18n:Core.REPLACE.ResortBar}}",
+                                "Resort_Towel": "{{i18n:Core.REPLACEResortTowel}}",
+                                "Resort_Towel_2": "{{i18n:Core.REPLACE.ResortTowel.2}}",
+                                "Resort_Towel_3": "{{i18n:Core.REPLACE.Resort_Towel.3}}",
+                                "Resort": "{{i18n:Core.REPLACE.Resort}}",
+                                // ADDITIONAL LOCATION DIALOGUE 
+                                "Saloon4": "{{i18n:Core.REPLACE.Saloon.4h}}",
+                                "Saloon6": "{{i18n:Core.REPLACE.Saloon.6h}}",
+                                "Saloon8": "{{i18n:Core.REPLACE.Saloon.8h}}",
+                                "Saloon10": "{{i18n:Core.REPLACE.Saloon.10h.{{REPLACERomance}}}}",
+                                // GREEN RAIN 
+                                "GreenRain": "{{i18n:Core.REPLACE.GreenRain}}",
+                                "GreenRainFinished": "{{i18n:Core.REPLACE.GreenRainFinished}}",
+                                "GreenRain_2": "{{i18n:Core.REPLACE.GreenRain2}}",
+
+                        }
+                }
+        ]
+}

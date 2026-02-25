@@ -1,0 +1,67 @@
+{
+    "Format": "2.9.0",
+	"ConfigSchema": {
+        "SpamMail": {
+            "AllowValues": "true, false",
+            "Default": true,
+        },
+		"OminousMail": {
+			"AllowValues": "true, false",
+			"Default": true,
+		},
+        "GetAllParentalMail": {
+            "AllowValues": "true, false",
+            "Default": true,
+        },
+        "ParentalMail": {
+            "AllowValues": "true, false",
+            "Default": true,
+        },
+        "PrankCalls": {
+            "AllowValues": "true, false",
+            "Default": true,
+        },
+        "RepeatCalls": {
+            "AllowValues": "true, false",
+            "Default": true,
+        },
+        "OminousPrankCalls": {
+            "AllowValues": "true, false",
+            "Default": true,
+        },
+
+	},
+    "DynamicTokens": [
+        {
+            "Name": "Repeatable",
+            "Value": "-1",
+            "When": {"RepeatCalls": true},
+        },
+        {
+            "Name": "Repeatable",
+            "Value": "1",
+            "When": {"RepeatCalls": false},
+        },
+        //DTs for determining how many wiz portraits the player probably has
+        {
+            "Name": "WizMod",
+            "Value": "Base",
+        },
+        {
+            "Name": "WizMod",
+            "Value": "SVE",
+            "When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,},
+        },
+        {
+            "Name": "WizMod",
+            "Value": "RRRR",
+            "When": {"HasMod |contains=Jellonip.RRRR": true,},
+        },
+    ],
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "Assets/Mail.json, Assets/TriggerActions.json, Assets/Dialogue.json, Assets/Phone.json"
+        },
+    ]
+}

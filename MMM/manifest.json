@@ -1,0 +1,11 @@
+{
+    "Name": "Mako's Mail Mod (Spam Mail)",
+    "Author": "MakoKZ",
+    "Version": "2.0.0-beta",
+    "Description": "Adds mail and stuff related to it.",
+    "UniqueID": "MakoKZ.MMM",
+    "UpdateKeys": ["Nexus:22765"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

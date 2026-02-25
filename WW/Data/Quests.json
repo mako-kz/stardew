@@ -1,0 +1,19 @@
+{
+    "Changes":[
+        {
+            "LogName": "Quest Data",
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                // HOW 2 QUEST:
+                // Types of quests: Basic (doesn't complete on its own, needs to be completed via an event action), ItemHarvest, Building, Crafting, Social, Monster, Location, ItemDelivery
+                // Social seems to be a category exclusive to the Introductions Quest, interestingly enough
+                // Type/Title/flavor text/Hint/Solution/Next quest (-1 if none)/Gold (0 if none)/Reward Description/Cancellable (true or false) /Reaction Text(optional)
+                // reaction text is used for item deliveries i guess?
+                        "MakoKZ.WW.ArgentQuest1": "Location/{{i18n:Quests.Argent.Name.1}}/{{i18n:Quests.Argent.Description.1}}/{{i18n:Quests.Argent.Hint.1}}/ARGENT_HOUSE_MAP_NAME_HERE/MakoKZ.WW.ArgentQuest2/0/-1/false",
+                        "MakoKZ.WW.ArgentQuest2": "Location/{{i18n:Quests.Argent.Name.2}}/{{i18n:Quests.Argent.Description.2}}/{{i18n:Quests.Argent.Hint.2}}/WizardHouse/MakoKZ.WW.ArgentQuest3/0/-1/false",
+                        "MakoKZ.WW.ArgentQuest3": "Basic/{{i18n:Quests.Argent.Name.3}}/{{WizardName}}{{i18n:Quests.Argent.Description.3}}/{{i18n:Quests.Argent.Hint.3}}/null/-1/1000/-1/false",
+                }
+            },
+        ],
+    }

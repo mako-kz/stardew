@@ -1,0 +1,14 @@
+{
+    "Changes": [ // REPLACE'S CONVERSATION TOPICS
+        {
+            "LogName": "Conversation Topics - Argent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/ArgentD",
+            "Entries": // REPLACE'S REACTIONS
+            {
+                "Introduction": "{{i18n:Core.Argent.Introduction}}",
+                "MakoKZ.WW_ArgentCasualTalk": "{{i18n:CT.Argent.CasualTalk.{{Random: 1, 2, 3, 4, 5 |key=casual-mail}}}}"
+            }
+        },
+    ]
+}

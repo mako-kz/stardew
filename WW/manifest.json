@@ -1,0 +1,22 @@
+{
+	"Name": "Wayward Wings",
+	"Author": "MakoKZ",
+	"Version": "0.0.1-preview",
+	"Description": "Adds Argent, a new friendable NPC.",
+	  "UniqueID": "MakoKZ.WW",
+	  "MinimumApiVersion": "4.0.8",
+	  "ContentPackFor": {
+	  "UniqueID": "Pathoschild.ContentPatcher"
+	  },
+	  "UpdateKeys": [""],
+	  "Dependencies": [  
+		{
+		  "UniqueID": "LemurKat.EastScarp",
+		  "IsRequired": true
+		},   
+		{
+		  "UniqueID": "spacechase0.SpaceCore",
+		  "IsRequired": true
+		},
+	 ]
+  }

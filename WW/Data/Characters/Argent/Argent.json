@@ -1,0 +1,73 @@
+{
+    "Changes": [
+        {
+            "LogName": "Argent's Dispo!",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "ArgentD": {
+                    "DisplayName": "{{i18n:Core.Argent.Name}}",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Shy", //add DT later... WAY later...
+                    "Optimism": "Negative", //add DT later... WAY later...
+                    "BirthSeason": "Winter",
+                    "BirthDay": 8,
+                    "HomeRegion": "Town",
+                    "CanBeRomanced": "false", //add DT later... WAY later...
+                    "ExcludeFromPerfectionScore": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "SpawnIfMissing": true,
+                    "SocialTab": "UnknownUntilMet",
+                    "Calendar": "HiddenUntilMet",
+                    "IntroductionsQuest": true,
+                    "FlowerDanceCanDance": true,
+                    "WinterStarParticipant": false, //add DT later... WAY later...
+                    "IsDarkSkinned": false,
+                    "DumpsterDiveEmote": 8,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    /*
+                    "ShakePortraits": [], //add portrait numbers here sorted by commas if you want them to shake
+                    */
+                    /* This won't need to be used for a long time. But it's here for when it's needed.
+                    "SpouseAdopts": false,
+                    "SpouseWantsChildren": false,
+                    "SpouseGiftJealousy": false,
+                    "SpouseRoom": {
+                        "MapAsset": ""
+                    },
+                    "SpousePatio": {
+                        "MapAsset": ""
+                    },
+                    */
+                    "Home": [ //this checks from top to bottom and uses the topmost one that's valid
+                        {
+                            "ID": "Testing", 
+                            "Location": "BusStop",
+                            "Tile": {
+                                "X": 19,
+                                "Y": 22
+                            },
+                            "Direction": "Down",
+                        },
+                    ],
+                    "TextureName": "Argent",
+                    /*
+                    "Appearance": [
+                        {
+                            "ID": "Spring Outfit 1",
+                            "Condition": "SEASON Spring",
+                            "Precedence": -10,
+                            "Weight": 1,
+                            "Portrait": "Portraits/Mateo_Seasonal_1",
+                            "Sprite": "Characters/Mateo_Seasonal_1"
+                        },
+                    ]
+                    */
+                }
+            }
+        },
+        //
+    ]
+}

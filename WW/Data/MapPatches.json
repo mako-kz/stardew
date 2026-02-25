@@ -1,0 +1,44 @@
+{
+  "Changes": [
+/*
+    // MATEO'S TENT 
+    {
+      "LogName": "Beach Tent Warp",
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_Village",
+      "FromFile": "assets/Maps/EastScarp_MateoTent1.tmx",
+      "ToArea": {
+        "X": 89,
+        "Y": 85,
+        "Width": 9,
+        "Height": 12
+      },
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 93,
+            "Y": 93
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 4 9 EastScarp_MateoHome"
+          }
+        },
+        {
+          "Position": {
+            "X": 94,
+            "Y": 93
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 4 9 EastScarp_MateoHome"
+          }
+        }
+      ],
+      "When": {
+        "HasFlag |contains=Mateo_SpecialOrders_BuildGuildMail": false
+      }
+    },
+*/
+  ]
+}

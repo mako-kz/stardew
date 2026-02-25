@@ -1,0 +1,52 @@
+{
+    "Changes": [
+        //blanks
+        {
+            "LogName": "Data Blanks",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/ArgentD, Characters/Schedule/ArgentD",
+            "FromFile": "Data/blank.json"
+          },
+        //argent character data
+        {
+            "LogName": "Argent Character Data",
+            "Action": "Include",
+            "FromFile": "Data/Characters/Argent/Argent.json, Data/Characters/Argent/Events.json, Data/Characters/Argent/GiftTastes.json, Data/Characters/Argent/Movies.json, Data/Characters/Argent/Festivals.json"
+        },
+        {
+            "LogName": "Argent Dialogue Data",
+            "Action": "Include",
+            "FromFile": "Data/Dialogue/Argent/Dialogue.json, Data/Dialogue/Argent/ConversationTopics.json, Data/Dialogue/Argent/CustomGifts.json, Data/Dialogue/Argent/MarriageDialogue.json"
+        },
+        {
+            "LogName": "Argent Schedule Data",
+            "Action": "Include",
+            "FromFile": "Data/Schedules/Schedule_Argent.json"
+        },
+        //argent image loads
+        {
+            "LogName": "Argent Images",
+            "Action": "Load",
+            "Target": "Characters/Argent, Portraits/Argent",
+            "FromFile": "Assets/{{TargetPathOnly}}/Argent/Argent.png"
+        },
+        {
+            "LogName": "Argent Images - Glasses (Normal)",
+            "Action": "EditImage",
+            "Target": "Portraits/Argent",
+            "PatchMode":"Overlay",
+            "FromFile": "Assets/Portraits/Argent/Glasses.png",
+            "Update": "OnLocationChange",
+            "When": {
+                "Time": "{{Range: 600, 1800}}"
+            }
+        },
+        //everything else?
+        {
+            "LogName": "Wayward Wings - Assorted Includes",
+            "Action": "Include",
+            "FromFile": "Data/Mail.json, Data/MapData.json, Data/MapPatches.json, Data/Quests.json, Data/Strings.json"
+
+        }
+    ]
+}

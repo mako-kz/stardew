@@ -1,0 +1,34 @@
+{
+  "Changes": [
+   /*
+    {
+      "Action": "Load",
+      "Target": "Maps/EastScarp_REPLACE",
+      "FromFile": "Assets/Maps/{{TargetWithoutPath}}.tmx"
+    },
+    {
+      "LogName": "REPLACE",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "EastScarp_REPLACE": {
+          "DisplayName": "{{i18n:miscellaneous.mapname.REPLACE.False}}",
+          "CreateOnLoad": {
+            "MapPath": "Maps/EastScarp_REPLACE"
+          },
+          "DefaultArrivalTile": {
+            "X": 4,
+            "Y": 8
+          },
+          "ExcludeFromNpcPathfinding": false,
+          "ArtifactSpots": [],
+          "FishAreas": {},
+          "Fish": [],
+          "Forage": [],
+          "CustomFields": {}
+        }
+      }
+    },
+*/
+  ]
+}

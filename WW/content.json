@@ -1,0 +1,283 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "LogName": "Wayward Wings - Includes",
+      "Action": "Include",
+      "FromFile": "Data/Includes.json",
+    },
+  ],
+  // CONFIG OPTIONS
+  "ConfigSchema": {
+    "TimeBetweenLetters": {
+      "AllowValues": "ThreeDays, FiveDays, SevenDays, TenDays, FourteenDays",
+      "Default": "SevenDays",
+      "AllowBlank": false,
+      "Description": "Configures the minimum amount of time between Argent's casual letters.",
+      "Section": "Gameplay",
+    },
+    "NonhumanFarmer": {
+      "AllowValues": "true, false",
+      "Default": false,
+      "Description": "For roleplay/narrative purposes: alters some dialogue. If you consider your character to be nonhuman or immortal, check this box.",
+      "Section": "Narrative",
+    },
+    "Player Pronouns 1": {
+      "Default": "They",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Description": "Sets the player's desired pronouns.",
+      "Section": "Pronouns"
+    },
+    "Player Pronouns 2": {
+      "Default": "Them",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Description": "Sets the player's desired pronouns.",
+      "Section": "Pronouns"
+    },
+    "Player Pronouns 3": {
+      "Default": "Theirs",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Description": "Sets the player's desired pronouns.",
+      "Section": "Pronouns"
+    },
+    "Player Pronouns 4": {
+      "Default": "Themselves",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Description": "Sets the player's desired pronouns.",
+      "Section": "Pronouns"
+    },
+    "Player Pronoun Identifier": {
+      "Default": "are",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Description": "Would usually be \"is\" or \"are\", depending on context. Example: She IS so cool! VS. They ARE so cool!",
+      "Section": "Pronouns"
+    },
+  },
+  // DYNAMIC TOKENS
+  "DynamicTokens": [
+    {
+      "Name": "PlayerPronouns",
+      "Value": "|CPPN1={{Random: {{Player Pronouns 1}} |key=PlayerPronouns}} |CPPN2={{Random: {{Player Pronouns 2}} |key=PlayerPronouns}} |CPPN3={{Random: {{Player Pronouns 3}} |key=PlayerPronouns}} |CPPN4={{Random: {{Player Pronouns 4}} |key=PlayerPronouns}} |CPPNI={{Random: {{Player Pronoun Identifier}} |key=PlayerPronouns}} |LPPN1={{Random: {{Lowercase: {{Player Pronouns 1}}}} |key=PlayerPronouns}} |LPPN2={{Random: {{Lowercase: {{Player Pronouns 2}}}} |key=PlayerPronouns}} |LPPN3={{Random: {{Lowercase: {{Player Pronouns 3}}}} |key=PlayerPronouns}} |LPPN4={{Random: {{Lowercase: {{Player Pronouns 4}}}} |key=PlayerPronouns}} |LPPNI={{Random: {{Lowercase: {{Player Pronoun Identifier}}}} |key=PlayerPronouns}}"
+    },
+    {
+      "Name": "WeekDayList",
+      "Value": "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+    },
+    {
+      "Name": "WeekDay",
+      "Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"
+    },
+    {
+      "Name": "NHF",
+      "Value": "Human",
+      "When": {"NonHumanFarmer": false}
+    },
+    {
+      "Name": "NHF",
+      "Value": "Nonhuman",
+      "When": {"NonHumanFarmer": true}
+    },
+    {
+      "Name": "NHF",
+      "Value": "Nonhuman",
+      "When": {"NonhumanFarmer": true}
+    },
+    {
+      "Name": "MailCooldown",
+      "Value": "2",
+      "When": {"TimeBetweenLetters": "ThreeDays"}
+    },
+    {
+      "Name": "MailCooldown",
+      "Value": "4",
+      "When": {"TimeBetweenLetters": "FiveDays"}
+    },
+    {
+      "Name": "MailCooldown",
+      "Value": "6",
+      "When": {"TimeBetweenLetters": "SevenDays"}
+    },
+    {
+      "Name": "MailCooldown",
+      "Value": "9",
+      "When": {"TimeBetweenLetters": "TenDays"}
+    },
+    {
+      "Name": "MailCooldown",
+      "Value": "13",
+      "When": {"TimeBetweenLetters": "FourteenDays"}
+    },
+    //Wizard name DTs
+    //Wizard names: Rasmodius, Rasmodia, or Magnus
+    //Formal Wizard names: Sir Rasmodius or Miss Rasmodia
+    //Pronoun 1/2/3/4: He/Him/His/Himself or She/Her/Hers/Herself
+    {
+      "Name": "WizardName",
+      "Value": "{{i18n:WizardNameMale}}",
+    },
+    {
+      "Name": "WizardName",
+      "Value": "{{i18n:WizardNameMale}}",
+      "When": {
+        "HasMod |contains=Nom0ri.RomRas": "false",
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false"
+      }
+    },
+    {
+      "Name": "WizardName",
+      "Value": "{{i18n:WizardNameSVE}}",
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        "HasMod |contains=Nom0ri.RomRas": "false",
+      }
+    },
+    {
+      "Name": "WizardName",
+      "Value": "{{i18n:WizardNameFemale}}",
+      "When": {
+        "HasMod": "Nom0ri.RomRas"
+      }
+    },
+    {
+      "Name": "WizardFormal",
+      "Value": "{{i18n:WizardFormalFemale}}",
+      "When": {
+        "HasMod": "Nom0ri.RomRas"
+      }
+    },
+    {
+      "Name": "WizardFormal",
+      "Value": "{{i18n:WizardNameMale}}",
+      "When": {
+        "HasMod |contains=Nom0ri.RomRas": "false"
+      }
+    },
+    {
+      "Name": "WizardPronoun1",
+      "Value": "{{i18n:WizardPronoun1F}}",
+      "When": {
+        "HasMod": "Nom0ri.RomRas"
+      }
+    },
+    {
+      "Name": "WizardPronoun2",
+      "Value": "{{i18n:WizardPronoun2F}}",
+      "When": {
+        "HasMod": "Nom0ri.RomRas"
+      }
+    },
+    {
+      "Name": "WizardPronoun3",
+      "Value": "{{i18n:WizardPronoun3F}}",
+      "When": {
+        "HasMod": "Nom0ri.RomRas"
+      }
+    },
+    {
+      "Name": "WizardPronoun4",
+      "Value": "{{i18n:WizardPronoun4F}}",
+      "When": {
+        "HasMod": "Nom0ri.RomRas"
+      }
+    },
+    {
+      "Name": "WizardPronoun1",
+      "Value": "{{i18n:WizardPronoun1M}}",
+    },
+    {
+      "Name": "WizardPronoun2",
+      "Value": "{{i18n:WizardPronoun2M}}",
+    },
+    {
+      "Name": "WizardPronoun3",
+      "Value": "{{i18n:WizardPronoun3M}}",
+    },
+    {
+      "Name": "WizardPronoun4",
+      "Value": "{{i18n:WizardPronoun4M}}",
+    },
+    //item reactions
+    //uncomment after 4 heart event is done.
+    //maybe 2 hearts... i haven't decided yet lmao
+    {
+      "Name": "HeartStatus",
+      "Value": "LowHearts",
+      "When": {
+        "HasSeenEvent |contains={{ModID}}_Argent4HFinale": false,
+      }
+    },
+    {
+      "Name": "HeartStatus",
+      "Value": "Normal",
+      "When": {
+        "HasSeenEvent |contains={{ModID}}_Argent4HFinale": true,
+      }
+    },
+    //misc line changes
+    {
+      "Name": "NWReaction",
+      "Value": "{{i18n:Movies.Argent.NaturalWonders.4}}",
+      "When": {
+        "HasSeenEvent |contains={{ModID}}_Argent10HFinale": false,
+      }
+    },
+    {
+      "Name": "NWReaction",
+      "Value": "{{i18n:Movies.Argent.NaturalWonders.5}}",
+      "When": {
+        "HasSeenEvent |contains={{ModID}}_Argent10HFinale": true,
+      }
+    },
+    //temp conditions - replace with something romantic
+    {
+      "Name": "ZZReaction",
+      "Value": "{{i18n:Movies.Argent.ZuzuCityExpress.4}}",
+      "When": {
+        "HasSeenEvent |contains={{ModID}}_Argent10HFinale": false,
+      }
+    },
+    {
+      "Name": "ZZReaction",
+      "Value": "{{i18n:Movies.Argent.ZuzuCityExpress.5}}",
+      "When": {
+        "HasSeenEvent |contains={{ModID}}_Argent10HFinale": true,
+      }
+    },
+    /* Disposition tokens - to be implemented at a later date
+     {
+      "Name": "Argent Anxiety",
+      "Value": "Shy",
+      "When": {
+        "HasSeenEvent |contains={{ModID}}_Argent4HFinale": false,
+      }
+    },
+         {
+      "Name": "Argent Anxiety",
+      "Value": "Outgoing",
+      "When": {
+        "HasSeenEvent |contains={{ModID}}_Argent4HFinale": true,
+      }
+    },
+    {
+      "Name": "Argent Optimism",
+      "Value": "Negative",
+      "When": {
+        "HasSeenEvent |contains={{ModID}}_Argent4HFinale": false,
+      }
+    },
+         {
+      "Name": "Argent Optimism",
+      "Value": "Positive",
+      "When": {
+        "HasSeenEvent |contains={{ModID}}_Argent4HFinale": true,
+      }
+    },
+    */
+  
+  ]
+}

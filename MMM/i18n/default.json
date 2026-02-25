@@ -1,0 +1,283 @@
+{
+	//regular mail
+	
+	"Spam.CatFacts": "Congratulations, @!^You have been subscribed to Cat Facts!^We will send you Cat Facts at a later date. Keep an eye out!^^** If this mail was recieved in error, please contact ------ to unsubscribe.^(Conveniently, the sender's contact information is too smudged to read.)",
+	"Spam.CatFactsSub": "Cat Facts Subscription Notice",
+	
+	"Spam.CatFacts1": "Cat Fact No. 1!^Most cats have five toes on their front paws and four on their back paws. Some cats can actually have more toes, though! These cats are called 'polydactyls.' Sometimes their extra toes make their paws look like oven mitts!^Wow!",
+	"Spam.CatFacts1Desc": "Cat Facts 1",
+	
+	"Spam.CatFacts2": "Cat Fact No. 2!^Cats don't actually have nine lives! A scientific study was recently published that has found that cats can have anywhere from one to thirty lives. Sometimes, there's the rare outlier that has as many as ------ lives!^Wow!",
+	"Spam.CatFacts2Desc": "Cat Facts 2",
+	
+	"Spam.CatFacts3": "Cat Fact No. 3!^Be careful planting lilies around places where cats live! Lilies are very poisonous to cats. Let's keep our fuzzy friends safe!",
+	"Spam.CatFacts3Desc": "Cat Facts 3",
+	
+	"Spam.CatFacts4": "cat fact no 4^cat like fish. plz give fish to cat? cat love you when cat get fish.",
+	"Spam.CatFacts4Desc": "Cat Facts 4?",
+	
+	"Spam.CatFacts5": "Cat Fact No. 5!^Did you know thatppppppppppppppppppppppp000000000000000000000000ooooooooooooooooooooo;",
+	"Spam.CatFacts5Desc": "Cat Facts 5?",
+	
+	"Spam.JunimoMail": "hi hi!^you are friend to junimo, yes?^you can be super friend to junimo with yummy starfruit!^raisin too!^^bye bye!^   - M. Rasmodius, Wizard",
+	"Spam.JunimoMailDesc": "Letter from the Wizard?",
+	
+	"Spam.JunimoMailNextDay": "Greetings, farmer.^I apologize if a letter was sent to you yesterday from my tower, as it was in error. A summoning spell I cast went awry, and I believe the the little hooligan got into my writing supplies. You may disregard it if you wish, and please accept this small gift for the trouble.^   - M. Rasmodius, Wizard^^",
+	"Spam.JunimoMailNextDayDesc": "Rasmodius Apology Letter",
+	
+	"Spam.PrismaticGag": "Geologists will HATE you with this one simple trick!^^Have you ever heard of a prismatic shard? They're quite rare, aren't they?^What if you could just make one appear out of thin air? Well, it's quite simple!^All you have to do is say \"[74]\". That's it! It's that easy!^^Try it today!",
+	"Spam.PrismaticGagDesc": "Free Prismatic Shards?",
+	
+	"Spam.LawsuitSettle": "To whom it may concern:^The class action lawsuit was a success! Here is your portion of the settlement.^We at the Zuzu branch of Hawthorne and Associates are so proud we were able to represent you in this monumental success against the Joja Corporation wrt. their demeaning use of \"The Naughty Corner\" during employee arbitration.^Maybe next we can tackle the feeding troughs in the cafeteria!",
+	"Spam.LawsuitSettleDesc": "Settlement Winnings",
+	
+	"Spam.FreeEnergy": "Have you ever heard about free energy?^Well, there's energy!^And it's free!^And it's right here!^And you've heard about it right now!^^Spread the word!",
+	"Spam.FreeEnergyDesc": "It's Free Energy!",
+	
+	"Spam.FreeEnergyAgain": "After recieving some complaints from our last Free Energy campaign, we are here to announce that this is the REAL free energy!^It's here! Again! Free Energy!^It's yours! You can take it!^It's good stuff! Accept no imitations!",
+	"Spam.FreeEnergyAgainDesc": "Free Energy, Again",
+	
+	"Spam.FreeEnergyFinale": "We at Free Energy! Inc. are here to issue a formal apology to all our beloved subscribers.^We were misled on what we thought \"free energy\" meant.^It does not mean giving out batteries for free, and it does not mean giving out energy drinks for free, either.^\"Free energy\" is actually the concept of making electricity from nothing... And what do you know, we figured out how to do just that!^So it's free energy! From the sun! Forever! All you have to do is wait for it!^It took us a while to figure out how to turn our surplus energy drinks into solar panels, but our blunder is your benefit! Enjoy!",
+	"Spam.FreeEnergyFinaleDesc": "Free Energy, Forever!",
+	
+	"Spam.LetterOfEncouragement": "Hey there.^^You probably don't know me, to be honest. But if you're reading this, I figure it was meant to be... I don't know if you need to hear this or not, but I'll say it anyway:^You're doing just fine.^Stuff's gonna work out.^Just keep moving forward, one step at a time.^And if there's an old friend in your life you haven't talked to in a while, why not see how they're doing? You might be surprised!^Take care of yourself, okay? You've got this.^^   -a friend",
+	"Spam.LetterOfEncouragementDesc": "A Letter of Encouragement",
+	
+	"Spam.StarsAreWatching": "^^^^   The stars are watching you with great interest.^^                  Make them proud.",
+	"Spam.StarsAreWatchingDesc": "The Stars are Watching",
+	
+	"Spam.ChainLetter": "You've been cursed by the chain letter demon! Send this mail to 5 of your friends or else your cereal will always be soggy!",
+	"Spam.ChainLetterDesc": "A Chain Letter",
+	
+	"Spam.LuckyNumbers": "Today's lucky numbers are:^^23 73 77 41 05 59",
+	"Spam.LuckyNumbersDesc": "Today's Lucky Numbers",
+	
+	"Spam.GameTheory": "INCREDIBLE BREAKTHROUGH IN HOW WE UNDERSTAND THE WORLD!^^Have you ever wondered why some things are the way they are? Researchers at the Ferngill Institute of Science are under fire after publishing \"Game Theory,\" a paper that argues about the existence of \"smah-pee,\" \"strings,\" and \"sprites.\" Keep reading to find out more and see if this affects you!^^(The rest of the paper has been torn off.)",
+	"Spam.GameTheoryDesc": "Learn About Game Theory!",
+	
+	"Spam.JojaAd": "ONE DAY ONLY! GET A BUCKETFUL OF INCREDIBLE SAVINGS!^^As part of the release of our new Joja Cola(tm) MEGA Size, enjoy MEGA deals in all stores for one day only!^All You have to do is purchase one MEGA Size Joja Cola bucket. Then, after you finish your refreshing beverage, anything you can fit inside the bucket is 90% off! That's right, 90%! Hurry, this deal won't last long!^*MUST CLIP COUPON TO SAVE. VALID FOR ONE DAY ONLY.*^^(The coupon is several weeks out of date...)",
+	"Spam.JojaAdDesc": "One Day Sale at JojaMart!",
+	
+	"Spam.RaffleWinner": "Congratulations @! You've won our 'Raffle for a Raffle' sweepstakes!^Enclosed is your prize. Enjoy!",
+	"Spam.RaffleWinnerDesc": "Raffle Winner!",
+	
+	"Spam.RiffraffWinner": "Congratulations @! You've won our 'Raffle for some Riffraff' sweepstakes!^Enclosed is your prize. Enjoy!",
+	"Spam.RiffraffWinnerDesc": "Riffraff Winner!",
+	
+	"Spam.LotteryWinner": "To whom it may concern:^^We have it on record that you purchased a lottery ticket with the numbers:^23 73 77 41 05 59^We are here to inform you that you have won the Ferngill Lottery jackpot with these numbers! However, due to what appears to be a freak incident several thousand other individuals have won with the same numbers on that day. Since the jackpot has to be split between all of the winners, the winnings per person are not large enough to require collection at our offices. We have attached the winnings below. Have a great day.^^- The Ferngill Lottery",
+	"Spam.LotteryWinnerDesc": "Lottery Winner!",
+	
+	"Spam.HotPeppers": "Meet hot peppers in your local area!^^Huge juicy melons waiting just for you!^^Only at Pierre's -- Don't get hot and bothered by this summer's sizzling deals!",
+	"Spam.HotPeppersDesc": "Pierre's Sizzling Deals!",
+	
+	"Spam.DatingWebsite": "Hello, stranger!^^Are you all alone on a nice Friday morning like this one?^Looking for someone to fill that hole in your lonely heart? Check out the Lonely Farmer Forum to find friends and meet someone special today.",
+	"Spam.DatingWebsiteDesc": "Lonely Farmer Forum",
+	
+	"Spam.SplashPark": "Hey Thrivers!^^This is just a notice to inform you that the Joja Splashin' Experience Park in Zuzu City will be temporarily closed for the next few weeks as we investigate a safety risk involving the Dunk Zone(tm). In the meantime, why not try out NEW Joja Silver? Now with 80% better degreasing capabilities! Every dozen cases bought will net you a voucher for the park once it re-opens!",
+	"Spam.SplashParkDesc": "Splash Park Closing Notice",
+
+	//regular mail, 2.0 additions
+
+	"Spam.SolarionTrial": "Brought to you by the creators of Solarion Chronicles...^^From your table to your computer, it's Legends of Solarion Online!^With our new free trial, now YOU can play through 'The Realm's Revival' and the award-winning 'Heaven's Blade' expansions with no restrictions on playtime.^So, what are you waiting for? Legends of Solarion Online: Become A Legend Today.",
+	"Spam.SolarionTrialDesc": "Solarion Online Free Trial",
+
+	"Spam.ColdPeppers": "Meet hot peppers in your local area!^^Huge juicy melons waiting just for you!^^Only at Pierre's -- Don't get hot and bothered by this summer's sizzling deals!^^(This advertisement is severely out of date...)",
+	"Spam.ColdPeppersDesc": "Pierre's Sizzling Deals?",
+
+	"Spam.ClownCollege": "Happy birthday!^^This is Professor Bumblefun from the Gigglesville Community Clown College. I'm writing back about your interest in tutoring at our esteemed FUNstablishment. Even though your resume looked super-splendorrific and brought us a great big smile, we came to the conclusion that you may be over-qualified for the job and have decided to not hire you at this time.^Have a funtastic search for your next future career!^^Binky Bumblefun, PhD",
+	"Spam.ClownCollegeDesc": "Clown College Career Rejection Notice",
+	
+	//ominous mail
+	
+	"Spam.IsAnyoneHere": "Hello?^^^Is anyone there?^^^Hello?",
+	"Spam.IsAnyoneHereDesc": "Hello?",
+	
+	"Spam.WeKnow": "We know what you did, @.^^^We're waiting.",
+	"Spam.WeKnowDesc": "We Know",
+	
+	"Spam.TrialConcluded": "Your response has been recorded and the trial is now concluded.^Thank you for your partipation.",
+	"Spam.TrialConcludedDesc": "Trial Concluded",
+	
+	"Spam.GoToBed": "Shouldn't you be asleep already?",
+	"Spam.GoToBedDesc": "Why are you awake?",
+
+	//ominous mail, 2.0 additions
+
+	"Spam.TrialStarted": "By opening this letter, you have accepted the terms and conditions.^We will contact you at a later date when the trial has reached a conclusion.",
+	"Spam.TrialStartedDesc": "A Trial Has Started",
+
+	//parental mail (2.0 feature)
+
+	"Spam.Mom1": "Hey @, It's Robin again. How are things going on the farm?^I was trying out some new carpentry techniques and made this dresser. It's not my best work, but I figured you might want it! It felt like it'd be a waste to throw it out. Hopefully it's useful to you.",
+	"Spam.Mom1Desc": "Robin Dresses You",
+
+	"Spam.Mom2": "Greetings, @!^This is a notice to inform you that you have been given a gift enrollment in our esteemed Brews from Abroad program. How nice!^Periodically you'll receive a complimentary case of high-quality drinks from our beverage catalog, along with some notes about drinks themselves--ending in an activity kit you can use to create your own drinks! Enclosed is your first shipment:^^'Emerald Peaks' Single-Origin Green Tea^Tasting Notes: Light, Refreshing, Grassy^^This is a delightful blend of tea leaves grown and gathered in the mountainous areas east of the Calico Desert. This particular variety is well-liked for being a hardy, low-maintenance plant. If you're interested in growing your own, ask your local gardeners if they have any spare cuttings!^^This drink is best enjoyed in the early mornings before a hard day of work.",
+	"Spam.Mom2Desc": "Brews From Abroad 1",
+
+	"Spam.Mom3": "Brews From Abroad: Shipment 3^^'Sunrise' Golden Ginger Ale^Tasting Notes:Zesty, Peppery, Bright^^This drink is made with fresh Gotoran ginger. This particular batch has been crafted with yuzu citrus for an especially zesty punch!^While commonly used as a remedy for nausea, it's also great when enjoyed anytime you're feeling a little lucky or want to spice things up.",
+	"Spam.Mom3Desc": "Brews From Abroad 3",
+
+	"Spam.Mom4": "What do you get someone who has everything? I dunno, but most people seem to say 'gambling with someone else's cash.'^Enjoy!^^(This message has been paid for by the Ferngill Lottery.)",
+	"Spam.Mom4Desc": "Let's Go Gambling?",
+
+	"Spam.Dad1": "Hey, @!^It's Robin. I forgot to drop this off earlier. The old phone in your grandpa's house was too beat up to use, so I figured I'd give you one of the spares I had lying around.^Call me if you need anything, okay? Good luck getting the old place running again!",
+	"Spam.Dad1Desc": "Robin Phones You",
+
+	"Spam.Dad2": "Brews From Abroad: Shipment 2^^'Cafe Obsidian' Premium Blend Espresso^Tasting Notes: Chocolatey, Fruity, Smooth^^Today's package features the finest coffee from Cafe Obsidian, a small-batch coffee roaster located in the Gem Sea. After growing their coffee beans on fertile volcanic soil, artisans carefully roast and craft their coffee into a strong, easy-to-use liquid concentrate.^^Easily take it anywhere on your travels, just add fresh water whenever you're ready for a taste of the islands.",
+	"Spam.Dad2Desc": "Brews From Abroad 2",
+
+	"Spam.Dad3": "Today marks your final package from the Brews From Abroad program. We hope you enjoyed our beverages, but our last gift will allow you to keep enjoying flavors from around the world!^Enclosed is our Brew-It-Yourself kit containing everything you need to create your own drinks.^Contents:^6x Brew-It-Yourself Flatpack Kegs^1x Keg Assembly Manual and Tool Set^1xBrewing Yeast Sampler Pack^1xBeginner's Brewing Tips and Tricks Book",
+	"Spam.Dad3Desc": "Brew It Yourself",
+
+	"Spam.Dad4": "Nice work, kid.^You've made over a hundred grand in the time you've been here. One of these days you'll be a millionaire, I just know it. Here's a little something special from me to you.^Keep it up.",
+	"Spam.Dad4Desc": "The Gift of the Century",
+
+	//conversation topics (2.0 feature)
+
+	//wizard hell of my own making
+	"Wizard.JunimoMailCT1.Base": "Blasted thing, where did it... Oh, it's you.$0#$b#Should you see a stray junimo around my tower today... Please inform me, posthaste.$0",
+	"Wizard.JunimoMailCT2.Base": "%The wizard is attempting to avoid your gaze.#$e#Let us not speak of what happened yesterday, farmer. I underestimated the spirits' ability to pull pranks...$0#$b#A minor embarassment is the price I have paid. Begone for today, if you would.$0",
+	"Wizard.JunimoMailCT1.SVE": "Blasted thing, where did it... Oh, it's you.$4#$b#Should you see a stray junimo around my tower today... Please inform me, posthaste.$0",
+	"Wizard.JunimoMailCT2.SVE": "%The wizard is attempting to avoid your gaze.#$e#Let us not speak of what happened yesterday, farmer. I underestimated the spirits' ability to pull pranks...$3#$b#A minor embarassment is the price I have paid. Begone for today, if you would.$0",
+	"Wizard.JunimoMailCT1.RRRR": "Blasted thing, where did it... Oh, it's you.$11#$b#Should you see a stray junimo around my tower today... Please inform me, posthaste.$10",
+	"Wizard.JunimoMailCT2.RRRR": "%The wizard is attempting to avoid your gaze.#$e#Let us not speak of what happened yesterday, farmer. I underestimated the spirits' ability to pull pranks...$3#$b#A minor embarassment is the price I have paid. Begone for today, if you would.$0",
+	"Wizard.ChainLetterCT.Base": "The concept of a 'chain letter demon' is absurd. There is not a single binding rune on this page, nor has it been writ in enchanted ink...!$0#$b#The work of this scroll is less than amateur.$0",
+	"Wizard.ChainLetterCT.SVE": "",
+	"Wizard.ChainLetterCT.RRRR": "",
+	"Wizard.GameTheoryCT.Base": "You have a strange expression on your face today, @.$0#$b#Ah... It would appear that the more mundane folk are catching onto the existence of the veil.$0#$b#I suggest you pay it no mind, as what lies beyond it cannot be changed by us in any meaningful fashion. Go on, carry on with your day.$0",
+	"Wizard.GameTheoryCT.SVE": "",
+	"Wizard.GameTheoryCT.RRRR": "",
+	"Wizard.LotteryWinnerCT.Base": "It would appear that a statistical anomaly has occured in the area. I assure you, I had nothing to do with this.$0#$b#One of the first lessons a mage learns is not to mess with Lady Luck...$0",
+	"Wizard.LotteryWinnerCT.SVE": "",
+	"Wizard.LotteryWinnerCT.RRRR": "",
+	"Wizard.ClownCollegeCT.Base": "I heard you have been contacted by... Bumblefun. He is not to be trusted, though you'd be better under my tutelage anyway.$0#$b#Oh? Was the letter sent to you in error, you think?$0#$b#Ah. Well, my offer still stands. Perhaps another time, @.$0",
+	"Wizard.ClownCollegeCT.SVE": "",
+	"Wizard.ClownCollegeCT.RRRR": "",
+	"Wizard.JojaAdCT.Base": "My tower has been inundated with letters of dubious origin as of late.$0#$b#Would you know anything about this? I have yet to find a sufficient answer.$0",
+	"Wizard.JojaAdCT.SVE": "",
+	"Wizard.JojaAdCT.RRRR": "",
+
+	//joja lawsuit
+	"Emily.LawsuitMailCT": "",
+	"Gus.LawsuitMailCT": "",
+	"Harvey.LawsuitMailCT": "",
+	"Lewis.LawsuitMailCT": "",
+	"Pierre.LawsuitMailCT": "",
+	"Sam.LawsuitMailCT": "",
+	"Shane.LawsuitMailCT": "",
+	//tbd: sve responses (susan, andy, morris?), maybe morris redeemed
+
+	//chain letter mail, used for generic remarks about spam mail
+	"Abagail.ChainLetterCT": "",
+	"Alex.ChainLetterCT": "",
+	"Caroline.ChainLetterCT": "",
+	"Clint.ChainLetterCT": "",
+	"Elliott.ChainLetterCT": "",
+	"Emily.ChainLetterCT": "",
+	"George.ChainLetterCT": "",
+	"Gus.ChainLetterCT": "",
+	"Haley.ChainLetterCT": "",
+	"Harvey.ChainLetterCT": "",
+	"Leah.ChainLetterCT": "",
+	"Lewis.ChainLetterCT": "",
+	"Linus.ChainLetterCT": "",
+	"Penny.ChainLetterCT": "",
+	"Pierre.ChainLetterCT": "",
+	"Robin.ChainLetterCT": "",
+	"Sandy.ChainLetterCT": "",
+	"Shane.ChainLetterCT": "",
+	"Willy.ChainLetterCT": "",
+
+	//Everyone Wins The Lottery
+	/*
+	"Character.LotteryWinnerCT": "",
+	"Character.LotteryWinnerCT": "",
+	"Character.LotteryWinnerCT": "",
+	"Character.LotteryWinnerCT": "",
+	"Character.LotteryWinnerCT": "",
+	"Character.LotteryWinnerCT": "",
+	"Character.LotteryWinnerCT": "",
+	"Character.LotteryWinnerCT": "",
+
+	//Game Theory mail. just a little silly fourth wall breaking.
+	"Demetrius.GameTheoryCT": "",
+	"Maru.GameTheoryCT": "",
+	"Robin.GameTheoryCT": "",
+
+	//Joja ad. another generic CT, but joja-flavored
+	"Character.JojaAdCT": "",
+	"Character.JojaAdCT": "",
+	"Character.JojaAdCT": "",
+	"Character.JojaAdCT": "",
+	"Character.JojaAdCT": "",
+	"Character.JojaAdCT": "",
+	"Character.JojaAdCT": "",
+	"Character.JojaAdCT": "",
+	"Character.JojaAdCT": "",
+	"Character.JojaAdCT": "",
+	"Character.JojaAdCT": "",
+	"Character.JojaAdCT": "",
+	"Character.JojaAdCT": "",
+	"Character.JojaAdCT": "",
+	"Character.JojaAdCT": "",
+	*/
+
+	//Hot Peppers: a tasteless ad sent by Pierre
+	"Abigail.HotPeppersCT": "",
+	"Caroline.HotPeppersCT": "",
+	"Pierre.HotPeppersCT": "",
+
+	//Joja Splash Park: about comical mishaps or horror stories from a joja-themed water park
+	"Jodi.SplashParkCT": "",
+	"Sam.SplashParkCT": "",
+	"Vincent.SplashParkCT": "",
+
+	//Solarion Online, a joke riffing on the ff14 copypasta. Gamers(tm) would likely respond to this
+	"Abigail.SolarionCT": "Do you play Solarion Online, @? A couple of us play together on the weekends.$0#$b#I used to be the healer, but smacking around monsters with a big axe is a lot more fun!$1",
+	"Jodi.SolarionCT": "Vincent keeps asking me about some computer game that Sam plays with his friends.$0#$b#I think he's still too young for that, but it is cute when Sam lets him try it out for a bit.$1",
+	"Sam.SolarionCT": "Yeah, I play Solarion with the other guys... But I always end up being the healer.$2#$b#I don't mind it, but I'd rather be a bard or something...$2#$b#At least I get dibs on the cool loot, though.$1",
+	"Sebastian.SolarionCT": "Solarion Online is pretty cool...$0#$b#Nothing beats the fun of the original, but it's a lot easier to play online with friends, y'know?$2#$b#I think Sam's a little tired of playing the healer if you ever want to join our guild.$1",
+	//todo: maybe make this one dynamic based on Chocobo Valley detection?
+	"Vincent.SolarionCT": "Big birds! Sam has a real big bird in his computer game.$1#$b#I wanna ride one... Are there big birds on your farm? Can you show me?$0",
+	//sve
+	"Sophia.SolarionCT": "My Solarion character cosplays too! Dressing her up is pretty fun.$8#$b#I kinda wish the developers would stop changing the Marksman class so often though... I liked the way it was in Stormbreaker.$2#$b#Maybe I should try playing something new, like a healer?$9",
+	"Victor.SolarionCT": "I don't know if you knew this, but Sebastian is quite the role-player.$4#$b#'Sir Victor, this staff you made for me is of excellent quality... As guildmaster, I applaud your great work...'$0#$b#It certainly makes the game more interesting.$1",
+	
+	//Cold Peppers: the same tasteless Hot Peppers ad, but sent horribly out of season?
+	"Abagail.ColdPeppersCT": "",
+	"Caroline.ColdPeppersCT": "",
+	"Pierre.ColdPeppersCT": "",
+
+	//Clown College: jokes about clowns, the existence of doctorates in clownery, etc
+	"Emily.ClownCollegeCT": "",
+	"Wizard.ClownCollegeCT": "",
+
+	// prank calls (2.0 feature)
+	"UnknownCaller": "Unknown",
+	"Calls.HangUp": "%Whoever called you immediately hung up...",
+	"Calls.Fridge.1": "Hey, is your refrigerator running? #$b#It is? Well, you better go catch it! Ahahaha! *click*",
+	"Calls.Fridge.2": "Hey, is your refrigerator running? #$b#Oh, it's... It's not? Uhh, you should probably get that fixed. *click*",
+	"Calls.Fridge.3": "Hey, is your refrigerator--What, you've heard this one already? #$b#Ugh, never mind... *click*",
+	"Calls.NoFridge.1": "Hey, is your refrigerator running? ...Wait, what do you mean you don't have a fridge? #$b#Are you, like, okay? Where do you put your food? #$b#Man, this is kinda awkward... *click*",
+	"Calls.NoFridge.2": "Hey, is your refrigerator running? Oh, wait a minute. I remember you from the last time! #$b#So you do have a fridge now? Great to hear it, man. Good on ya. Well, hope you're having a good one. *click*",
+	"Calls.Horse.1": "Hey, is your horse running? #$b#I would really hope so! Ahahaha! *click*",
+	"Calls.Horse.Marnie": "Hey, is your horse running? #$b#It's really important that you give them lots of exercise! Let me know if you need help training them, okay?$1",
+	"Calls.HorseWarranty": "Hello. We are calling to remind you of your horse's expired warranty. #$b#You are qualified for an extension. Please call us back to apply.",
+
+
+	//config
+	"config.SpamMail.name": "Spam Mail",
+	"config.SpamMail.Description": "Enables spam mail. A bunch of weird, silly, and sometimes useful letters may appear in your mailbox. The core of the mod! Also enables conversation topics.",
+	"config.OminousMail.name": "Ominous Mail",
+	"config.OminousMail.description": "Enables spam mail with more \"ominous\" tones. They don't have any effect on the game, they're just less silly and more creepy. Does nothing is Spam Mail is disabled.",
+	"config.GetAllParentalMail.name": "Both Parents Send Mail",
+	"config.GetAllParentalMail.description": "If enabled, you will get letters from both Mom and Dad instead of only one of them (or their equivalents, if Remixed Parental Mail is enabled). This also slightly changes when they're sent to space them out.",
+	"config.ParentalMail.name": "Remixed Parental Mail",
+	"config.ParentalMail.description": "Enable this if you'd like the milestone letters sent from Mom or Dad to be replaced with something different. This also changes the rewards they give.",
+	"config.PrankCalls.name": "Prank Calls",
+	"config.PrankCalls.description": "Allows you to get prank calls! The spam mail of a new era.",
+	"config.RepeatCalls.name": "Repeatable Calls",
+	"config.RepeatCalls.description": "Enables certain phone calls to repeat. In the base game, phone calls received by the player will only appear once per save file.",
+	"Config.OminousPrankCalls.name": "Ominous Prank Calls",
+	"Config.OminousPrankCalls.description": "Allows you to get ominous prank calls. Does nothing if Prank Calls are disabled.",
+}

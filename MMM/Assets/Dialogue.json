@@ -1,0 +1,121 @@
+{
+    "Changes": [
+
+// VANILLA CHARACTERS
+//alphabetical order: Abigail, Alex, Caroline, Clint, Demetrius, Dwarf, Elliott, Emily, Evelyn, George, Gus, Haley, Harvey, Jas, Jodi, Kent, Krobus, Leah, Leo, Lewis, Linus, Marnie, Maru, Pam, Penny, Pierre, Robin, Sam, Sandy, Sebastian, Shane, Vincent, Willy, Wizard.
+
+// VANILLA CHARACTERS
+    {
+        //the wizard gets his own section as he is a special little boy. here be dragons
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "{{ModID}}_JunimoMailCT1": "{{i18n:Wizard.JunimoMailCT1.{{WizMod}}}}",
+             "{{ModID}}_JunimoMailCT2": "{{i18n:Wizard.JunimoMailCT2.{{WizMod}}}}",
+             "{{ModID}}_ChainLetterCT": "{{i18n:Wizard.ChainLetterCT.{{WizMod}}}}",
+             "{{ModID}}_GameTheoryCT": "{{i18n:Wizard.GameTheoryCT.{{WizMod}}}}",
+             "{{ModID}}_LotteryWinnerCT": "{{i18n:Wizard.LotteryWinnerCT.{{WizMod}}}}",
+             "{{ModID}}_ClownCollegeCT": "{{i18n:Wizard.ClownCollegeCT.{{WizMod}}}}",
+             "{{ModID}}_JojaAdCT": "{{i18n:Wizard.JojaAdCT.{{WizMod}}}}",
+        }
+    },
+//joja lawsuit. tbd: consider adding sve support (susan, andy, morris) and morris redeemed and/or across the aisle morris
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Emily, Characters/Dialogue/Gus, Changes/Dialogue/Harvey, Characters/Dialogue/Lewis, Characters/Dialogue/Pierre, Characters/Dialogue/Sam, Characters/Dialogue/Shane",
+        "Entries": {
+            "{{ModID}}_LawsuitMailCT": "{{i18n:{{TargetWithoutPath}}.LawsuitMailCT}}",
+        }
+    },
+//chain letter mail. used for generic remarks about spam mail
+//having most of the characters respond to this one is excessive. consider splitting responses across several mails like the joja generic or others
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Abagail, Characters/Dialogue/Alex, Changes/Dialogue/Caroline, Characters/Dialogue/Clint, Characters/Dialogue/Elliott, Characters/Dialogue/Emily, Characters/Dialogue/George, Characters/Dialogue/Gus, Characters/Dialogue/Haley, Characters/Dialogue/Harvey, Characters/Dialogue/Leah, Characters/Dialogue/Lewis, Characters/Dialogue/Linus, Characters/Dialogue/Penny, Characters/Dialogue/Pierre, Characters/Dialogue/Robin, Characters/Dialogue/Sandy, Characters/Dialogue/Shane, Characters/Dialogue/Willy",
+        "Entries": {
+            "{{ModID}}_ChainLetterCT": "{{i18n:{{TargetWithoutPath}}.ChainLetterCT}}",
+        }
+    },
+//Everyone Wins The Lottery
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Demetrius, Characters/Dialogue/Linus, Characters/Dialogue/Pam, Characters/Dialogue/Pierre, Characters/Dialogue/Shane",
+        "Entries": {
+            "{{ModID}}_LotteryWinnerCT": "{{i18n:{{TargetWithoutPath}}.LotteryWinnerCT}}"
+        },
+    },
+//Game Theory mail. just a little silly fourth wall breaking.
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Demetrius, Characters/Dialogue/Maru, Characters/Dialogue/Robin",
+        "Entries": {
+            "{{ModID}}_LotteryWinnerCT": "{{i18n:{{TargetWithoutPath}}.GameTheoryCT}}"
+        },
+    },
+//Joja ad. another generic CT, but joja-flavored
+/*    {
+        "Action": "EditData",
+        "Target": "",
+        "Entries": {
+            "{{ModID}}_JojaAdCT": "{{i18n: {{TargetWithoutPath}}.JojaAdCT}}"
+        },
+    },*/
+//Hot Peppers: a tasteless ad sent by Pierre
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Abigail, Characters/Dialogue/Caroline, Characters/Dialogue/Pierre",
+        "Entries": {
+            "{{ModID}}_HotPeppersCT": "{{i18n:{{TargetWithoutPath}}.HotPeppersCT}}",
+        }
+    },
+//Joja Splash Park:  about comical mishaps or horror stories from a joja-themed water park
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Jodi, Characters/Dialogue/Sam, Characters/Dialogue/Vincent",
+        "Entries": {
+            "{{ModID}}_SplashParkCT": "{{i18n:{{TargetWithoutPath}}.SplashParkCT}}",
+        }
+    },
+//Solarion Online, a joke riffing on the ff14 copypasta. Gamers(tm) would likely respond to this
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Abigail, Characters/Dialogue/Jodi, Characters/Dialogue/Sam, Characters/Dialogue/Sebastian, Characters/Dialogue/Vincent",
+        "Entries": {
+            "{{ModID}}_SolarionCT": "{{i18n:{{TargetWithoutPath}}.SolarionCT}}",
+        }
+    },
+    // SVE CHARACTERS
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Sophia",
+        "When": {"HasMod": "FlashShifter.StardewValleyExpandedCP"},
+        "Entries": {
+            "{{ModID}}.SolarionCT": "{{i18n:Sophia.SolarionCT}}",
+        }
+    },
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Victor",
+        "When": {"HasMod": "FlashShifter.StardewValleyExpandedCP"},
+        "Entries": {
+            "{{ModID}}.SolarionCT": "{{i18n:Victor.SolarionCT}}",
+        }
+    },
+//Cold Peppers: the same tasteless Hot Peppers ad, but sent horribly out of season?
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Abigail, Characters/Dialogue/Caroline, Characters/Dialogue/Pierre",
+        "Entries": {
+            "{{ModID}}_ColdPeppersCT": "{{i18n:{{TargetWithoutPath}}.ColdPeppersCT}}",
+        }
+    },
+//Clown College: jokes about clowns, the existence of doctorates in clownery, etc
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Emily",
+        "Entries": {
+            "{{ModID}}_ClownCollegeCT": "{{i18n:{{TargetWithoutPath}}.ClownCollegeCT}}",
+        }
+    },
+    ]
+}

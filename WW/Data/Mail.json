@@ -1,0 +1,49 @@
+{
+    "Changes": [
+        {
+        // Loads mail art
+			"Action": "Load",
+			"Target": "MakoKZ.WW/MailBGs",
+			"FromFile": "Assets/MailBGs.png",
+		},
+        // Loads the actual mail texts
+        {
+            "LogName": "MailAdditions",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "MakoKZ.WW_ESC":"{{i18n:Mail.WW.ESC}}[letterbg MakoKZ.WW/MailBGs 0][textcolor black][#]{{i18n:Mail.WW.ESCTitle}}",
+                "MakoKZ.WW_ArgentCasualMail":"{{i18n:Mail.WW.Casual.{{Random: 1, 2, 3, 4, 5 |key=casual-mail}}}}[letterbg MakoKZ.WW/MailBGs 0][textcolor black][#]{{i18n:Mail.WW.CasualDesc.{{Random: 1, 2, 3, 4, 5 |key=casual-mail}}}}",
+            }
+        },
+        // Loads the trigger actions that send mail.
+        {
+            "LogName": "MailActions",
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"MakoKZ.WW_ESC": {
+					"Id": "MakoKZ.WW_ESC",
+					"Trigger": "DayStarted",
+					"Actions": [
+						"AddMail Current MakoKZ.WW_ESC now",
+					],
+                    "MarkActionApplied": true,
+				},
+                "MakoKZ.WW_ArgentCasualMail": {
+                    "Id": "MakoKZ.WW_CasualMail",
+                    "Trigger": "DayEnding",
+                    "Condition": "RANDOM 0.25, PLAYER_FRIENDSHIP_POINTS Current ArgentD 1000, !PLAYER_HAS_CONVERSATION_TOPIC Current MakoKZ.WW_CasualCD",
+                    "Actions": [
+                        "AddMail Current MakoKZ.WW_ArgentCasualMail now",
+                        "AddConversationTopic MakoKZ.WW_ArgentCasualTalk 0",
+                        "AddConversationTopic MakoKZ.WW_CasualCD {{MailCooldown}}",
+                    ],
+                    "MarkActionApplied": false,
+                },
+			}
+		},
+
+        
+    ]
+}

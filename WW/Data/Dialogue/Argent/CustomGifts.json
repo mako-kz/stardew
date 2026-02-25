@@ -1,0 +1,16 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/ArgentD",
+      "Entries": {
+
+        //custom gifts
+        "AcceptGift_(O)StardropTea": "{{i18n:Gifts.Argent.GiftReaction.StardropTea.{{HeartStatus}}}}",
+
+        //rejections
+        "RejectItem_(O)458": "{{i18n:Argent.GiftReject.Bouquet}}",
+      }
+    },
+  ]
+}

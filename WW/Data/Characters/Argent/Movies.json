@@ -1,0 +1,235 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "ArgentD": {
+                    "Name": "ArgentD",
+                    "LovedTags": [
+                        "Cappuccino Mousse Cake",
+                        "Nachos",
+                        "Rock Candy",
+                        "Stardrop Sorbet",
+                        "Truffle Popcorn",
+                    ],
+                    "LikedTags": [
+                        "Jasmine Tea",
+                        "Sour Slimes",
+                        "Salmon Burger",
+                        "Sweet",
+                        "Gourmet",
+                        "Hot",
+                    ],
+                    "DislikedTags": [
+                        "JojaCorn",
+                        "Joja Cola",
+                        "Healthy",
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Characters",
+            "Entries": {
+                "MovieInvite_Invited_ArgentD": "$1 {{ModID}}_ArgentMovieFlag#{{i18n:Movies.Argent.FirstInvite}}#$e#{{i18n:Movies.Argent.Invite}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Entries": {
+                "ArgentD": {
+                    "NPCName": "ArgentD",
+                    "Reactions": [
+                        {
+                            "Tag": "spring_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": "null",
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.BraveLittleSapling.1}}",
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": "sprout_leave",
+                                    "Script": "/shake ArgentD 1000/pause 500/textAboveHead ArgentD \"{{i18n:Movies.Argent.BraveLittleSapling.2}}\"/pause 2000/message \"{{i18n:Movies.Argent.BraveLittleSapling.3}}\"",
+                                    "Text": "{{i18n:Movies.Argent.BraveLittleSapling.4}}",
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.BraveLittleSapling.5}}",
+                                }
+                            },
+                            "ID": "reaction_0"
+                        },
+                        {
+                            "Tag": "spring_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.NaturalWonders.1}}",
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote ArgentD 20",
+                                    "Text": "{{i18n:Movies.Argent.NaturalWonders.2}}",
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.NaturalWonders.3}}{{NWReaction}}",
+                                }
+                            },
+                            "ID": "reaction_1"
+                        },
+                        {
+                            "Tag": "summer_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.PrairieKing.1}}",
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote ArgentD 16",
+                                    "Text": "{{i18n:Movies.Argent.PrairieKing.2}}",
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.PrairieKing.3}}",
+                                }
+                            },
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "summer_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.Wumbus.1}}",
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:Movies.Argent.Wumbus.2}}\"",
+                                    "Text": "",
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.Wumbus.3}}",
+                                }
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "fall_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.Mysterium.1}}{{WizardName}}{{i18n:Movies.Argent.Mysterium.2}}{{Lowercase: {{WizardPronoun2}}}}{{i18n:Movies.Argent.Mysterium.3}}{{Lowercase: {{WizardPronoun2}}}}{{i18n:Movies.Argent.Mysterium.4}}",
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:Movies.Argent.Mysterium.5}}\"",
+                                    "Text": null,
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.Mysterium.6}}{{WizardName}}{{i18n:Movies.Argent.Mysterium.7}}",
+                                }
+                            },
+                            "ID": "reaction_4"
+                        },
+                        {
+                            "Tag": "fall_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.ItHowlsInTheRain.1}}",
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote ArgentD 12",
+                                    "Text": "{{i18n:Movies.Argent.ItHowlsInTheRain.2}}",
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.ItHowlsInTheRain.3}}",
+                                }
+                            },
+                            "ID": "reaction_5"
+                        },
+                        {
+                            "Tag": "winter_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.MiracleAtColdstarRanch.1}}",
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.MiracleAtColdstarRanch.2}}",
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.MiracleAtColdstarRanch.3}}",
+                                }
+                            },
+                            "ID": "reaction_6"
+                        },
+                        {
+                            "Tag": "winter_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.ZuzuCityExpress.1}}",
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote ArgentD 40/emote ArgentD 12/pause 500/beginSimultaneousCommand/emote ArgentD 40/emote farmer 40/endSimultaneousCommand/message \"{{i18n:Movies.Argent.ZuzuCityExpress.2}}\"/pause 500/emote farmer 28",
+                                    "Text": null,
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.Argent.ZuzuCityExpress.3}}{{ZZReaction}}",
+                                }
+                            },
+                            "ID": "reaction_7"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

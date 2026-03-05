@@ -13,7 +13,14 @@ The successor to Spam Mail with a much broader scope; this originally started as
 ## Wayward Wings
 
 (Not Currently Available on Nexus ♢ [Github](https://github.com/mako-kz/stardew/tree/main/WW) ♢ [Trello (currently very outdated)](https://trello.com/b/asPZRmBJ/wayward-wings))  
-An NPC expansion themed around dragons. Current scope features one character, Argent. Development is currently on hiatus as I am curently focusing on releasing Mako's Mail Mod.
+An NPC expansion themed around dragons. Current scope features one character, Argent. Development is on hiatus as I am curently focusing on releasing Mako's Mail Mod.
+
+## Super Summer Spangle Deluxe (Typo Valley)
+
+(Not Currently Available on Nexus) ♢ [Github](https://github.com/mako-kz/stardew/tree/main/SSSD)  
+Just a silly mod that randomizes the names of a few different items througout the world (mostly the Summer Spangle). Made to practice pinned randomization keys.  
+Currently out of ideas to add to this one but might update it every now and then.  
+Requires [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915).
 
 # Completed/Defunct Projects
 
@@ -24,6 +31,6 @@ The code is still functional as of SDV version 1.6, but is likely to break as ti
 Requires [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915).
 
 ## Cakes With Cake (Completed)
-([Nexus Link](https://www.nexusmods.com/stardewvalley/mods/41312))  
+([Nexus Link](https://www.nexusmods.com/stardewvalley/mods/41312)) ♢ (Not Available on Github)  
 A very very stupid very dumb mod that mostly just replaces cake sprites with cake sprites that have butts on them. I'm not putting this on my Github but it exists and you can use it for some reason if you really wanted to (you probably shouldn't). I have no intentions on further updating this mod unless the demons come for me in the night.  
 Requires [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915).

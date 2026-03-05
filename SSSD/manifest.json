@@ -1,0 +1,11 @@
+{
+    "Name": "Super Summer Spangle Deluxe",
+    "Author": "MakoKZ",
+    "Version": "1.0.0",
+    "Description": "Introduces typos to Stardew Valley.",
+    "UniqueID": "MakoKZ.SSSD",
+    "UpdateKeys": ["Nexus:"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
